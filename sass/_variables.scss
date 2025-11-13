@@ -1,0 +1,20 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+$fuente: Roboto;
+$background-primario: #bfbfbf;
+$background-secundario: #0085C1;
+$fuente-color: whitesmoke;
+
+*{
+    font-family: $fuente;
+    color: $fuente-color;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//extends
+
+
+//mixins
