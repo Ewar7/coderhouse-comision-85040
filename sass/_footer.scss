@@ -1,0 +1,72 @@
+@use "variables" as v;
+
+footer {
+    text-align: center;
+    background-color: #0085C1;
+    color: #fff;
+}
+footer ul li {
+    list-style: none;
+    display: inline;
+}
+footer ul li a{
+    margin: 8px;
+    text-decoration: none;
+}
+footer input{
+    border: 1px solid #333;
+}
+.boletin-footer {
+    background-color: #fff;
+    color: #0085C1;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.boton-boletin{
+    text-decoration: none;
+    padding: 7.8px 25px;
+    font-size: 18px;
+    position: relative;
+    background-color: #0085C1;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+}
+.boton-boletin:hover{
+    transform: scale(1.1);
+}
+.redes-footer {
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+section h2 {
+    margin-top: 20px;
+}
+.derechos h3{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 18px;
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 0;
+}
+.img-footer{
+    height: 250px;
+    width: auto;
+}
+.boton-whatsapp{
+    width: 70px;
+    height: auto;
+    position: fixed;
+    right: 40px;
+    bottom: 80px;
+    transition: ease-in-out 0.3s;
+}
+.boton-whatsapp:hover{
+    transform: scale(1.1);
+}

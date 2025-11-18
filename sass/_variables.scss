@@ -1,10 +1,10 @@
 /* Fuente */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
-$fuente: Roboto;
-$background-primario: #bfbfbf;
-$background-secundario: #0085C1;
-$fuente-color: whitesmoke;
+$fuente: "Roboto Flex", sans-serif;
+$background-primario: #0085C1;
+$background-secundario: #bfbfbf;
+$fuente-color: #fff;
 
 *{
     font-family: $fuente;
@@ -12,6 +12,10 @@ $fuente-color: whitesmoke;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
 //extends
