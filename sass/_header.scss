@@ -17,11 +17,11 @@ header {
 }
 .dropdown-item {
     font-size: 28px;
-    color: #ffffff;
+    color: v.$color-primario;
 }
 .dropdown-item:hover {
     font-size: 30px;
-    color: #171717;
+    color: v.$color-secundario;
     background-color: #e7e7e7;
     border-radius: 5px;
 }
