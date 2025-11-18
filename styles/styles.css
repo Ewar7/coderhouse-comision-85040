@@ -131,6 +131,7 @@ header {
 .logo-header {
   height: 130px;
   width: auto;
+  padding-top: 15px;
 }
 
 .logo-header:hover {
