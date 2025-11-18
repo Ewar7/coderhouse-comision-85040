@@ -2,19 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
 * {
   font-family: "Roboto Flex", sans-serif;
-  color: #fff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Flex", sans-serif;
   font-weight: bold;
   margin-bottom: 0;
 }
@@ -195,6 +188,50 @@ header ul li a {
   padding: 0;
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+  header {
+    display: flex;
+    background-color: #000000;
+  }
+  .header1 {
+    width: 100%;
+    margin: auto;
+  }
+  .header2 {
+    display: none;
+  }
+  .navbar-nav {
+    margin-top: 50px;
+    background-color: #0085C1;
+    height: auto;
+    border-radius: 8px;
+    background-color: #0085C1;
+    height: auto;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 3;
+  }
+  .nav-link {
+    padding: 0 100px;
+  }
+  .container-fluid {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+  }
+  .contenedor-redes {
+    display: none;
+  }
+  .logo-header {
+    display: none;
+  }
+  .d-flex .buscador-header {
+    display: none;
+  }
+  .menu-header {
+    grid-area: 3;
+  }
+}
 .carousel, .slide {
   width: 90%;
   margin: auto;
@@ -288,10 +325,37 @@ main {
   padding: 5px 0;
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+  .carta {
+    width: auto !important;
+  }
+  .carta a h2 {
+    text-transform: capitalize;
+  }
+  main h1 {
+    font-size: 18px;
+  }
+  .titulo-seccion {
+    font-size: 18px !important;
+  }
+}
 footer {
   text-align: center;
   background-color: #0085C1;
   color: #fff;
+}
+footer section .boletin-footer {
+  background-color: #fff;
+  color: #0085C1;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+footer section h2 {
+  margin-top: 20px;
 }
 
 footer ul li {
@@ -306,17 +370,6 @@ footer ul li a {
 
 footer input {
   border: 1px solid #333;
-}
-
-.boletin-footer {
-  background-color: #fff;
-  color: #0085C1;
-  display: flex;
-  font-size: 20px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
 }
 
 .boton-boletin {
@@ -338,10 +391,6 @@ footer input {
   text-align: right;
   padding-right: 30px;
   padding-bottom: 15px;
-}
-
-section h2 {
-  margin-top: 20px;
 }
 
 .derechos h3 {
@@ -371,6 +420,27 @@ section h2 {
   transform: scale(1.1);
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+  .img-footer {
+    width: 60%;
+    height: auto;
+  }
+  .derechos h3 {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .boton-whatsapp {
+    position: fixed;
+    width: 50px;
+    height: auto;
+    left: 5vh;
+    bottom: 5vh;
+  }
+  .redes-footer {
+    display: flex;
+    justify-content: center;
+  }
+}
 .articulos-tienda {
   margin-bottom: 30px;
 }
@@ -567,19 +637,10 @@ form {
   margin-top: 20px;
   margin-bottom: 35px;
 }
-
-.formulario {
-  display: grid;
-  grid-template-areas: "a a b b b" "c c b b b" "d d b b b" "e e b b b" "f f b b b";
-  margin-left: 6%;
-  margin-right: 6%;
-}
-
 form input {
   display: grid;
   width: 100%;
 }
-
 form textarea {
   width: 100%;
   height: 79%;
@@ -589,7 +650,21 @@ form textarea {
   padding-left: 10px;
 }
 
-.boton-enviar {
+.formulario {
+  display: grid;
+  grid-template-areas: "a a b b b" "c c b b b" "d d b b b" "e e b b b" "f f b b b";
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.formulario .a {
+  grid-area: a;
+  padding: 10px;
+}
+.formulario .b {
+  grid-area: b;
+  padding: 10px;
+}
+.formulario .b .boton-enviar {
   text-decoration: none;
   padding: 7.8px 25px;
   font-size: 18px;
@@ -599,40 +674,23 @@ form textarea {
   border-radius: 10px;
   margin-top: 15px;
 }
-
-.ubicacion {
-  width: 90%;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  border-radius: 10px;
+.formulario .b :hover {
+  background-color: #202020;
+  color: #0085C1;
 }
-
-.a {
-  grid-area: a;
-  padding: 10px;
-}
-
-.b {
-  grid-area: b;
-  padding: 10px;
-}
-
-.c {
+.formulario .c {
   grid-area: c;
   padding: 10px;
 }
-
-.d {
+.formulario .d {
   grid-area: d;
   padding: 10px;
 }
-
-.e {
+.formulario .e {
   grid-area: e;
   padding: 10px;
 }
-
-.f {
+.formulario .f {
   grid-area: f;
   padding: 10px;
 }
@@ -643,6 +701,13 @@ form textarea {
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
+}
+
+.ubicacion {
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .lista-preguntas {

@@ -78,3 +78,17 @@ main {
     margin: 20px 35%;
     padding: 5px 0;
 }
+@media (min-width: 320px) and (max-width: 430px){
+    .carta{
+        width: auto !important;
+    }
+    .carta a h2{
+        text-transform: capitalize;
+    }
+    main h1 {
+        font-size: 18px;
+    }
+    .titulo-seccion {
+        font-size: 18px !important;
+    }
+}

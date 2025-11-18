@@ -4,6 +4,21 @@ footer {
     text-align: center;
     background-color: #0085C1;
     color: #fff;
+    section{
+        .boletin-footer {
+            background-color: #fff;
+            color: #0085C1;
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            gap: 10px;
+        }
+        h2{
+        margin-top: 20px;
+        }
+    }
 }
 footer ul li {
     list-style: none;
@@ -15,16 +30,6 @@ footer ul li a{
 }
 footer input{
     border: 1px solid #333;
-}
-.boletin-footer {
-    background-color: #fff;
-    color: #0085C1;
-    display: flex;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
 }
 .boton-boletin{
     text-decoration: none;
@@ -43,9 +48,6 @@ footer input{
     text-align: right;
     padding-right: 30px;
     padding-bottom: 15px;
-}
-section h2 {
-    margin-top: 20px;
 }
 .derechos h3{
     font-family: "Roboto Flex", sans-serif;
@@ -69,4 +71,26 @@ section h2 {
 }
 .boton-whatsapp:hover{
     transform: scale(1.1);
+}
+@media (min-width: 320px) and (max-width: 430px){
+    .img-footer{
+        width: 60%;
+        height: auto;
+    }
+    .derechos h3 {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .boton-whatsapp{
+        position: fixed;
+        width: 50px;
+        height: auto;
+        left: 5vh;
+        bottom: 5vh;
+    }
+    .redes-footer{
+        display: flex;
+        justify-content: center;
+    }
+
 }

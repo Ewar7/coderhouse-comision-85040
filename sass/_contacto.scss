@@ -6,6 +6,18 @@ form {
     padding: 25px;
     margin-top: 20px;
     margin-bottom: 35px;
+    input{
+    display: grid;
+    width: 100%;
+    }
+    textarea {
+    width: 100%;
+    height: 79%;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    }
 }
 .formulario{
     display: grid;
@@ -18,58 +30,43 @@ form {
     ;
     margin-left: 6%;
     margin-right: 6%;
-}
-form input{
-    display: grid;
-    width: 100%;
-}
-form textarea {
-    width: 100%;
-    height: 79%;
-    border-radius: 5px;
-    border: none;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-.boton-enviar{
-    text-decoration: none;
-    padding: 7.8px 25px;
-    font-size: 18px;
-    background-color: #fff;
-    color: #0085C1;
-    border: 0;
-    border-radius: 10px;
-    margin-top: 15px;
-}
-.ubicacion{
-    width: 90%;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-}
-.a{
-    grid-area: a;
-    padding: 10px;
-}
-.b{
-    grid-area: b;
-    padding: 10px;
-}
-.c{
-    grid-area: c;
-    padding: 10px;
-}
-.d{
-    grid-area: d;
-    padding: 10px;
-}
-.e{
-    grid-area: e;
-    padding: 10px;
-}
-.f{
-    grid-area: f;
-    padding: 10px;
+    .a{
+        grid-area: a;
+        padding: 10px;
+    }
+    .b{
+        grid-area: b;
+        padding: 10px;
+        .boton-enviar{
+        text-decoration: none;
+        padding: 7.8px 25px;
+        font-size: 18px;
+        background-color: #fff;
+        color: #0085C1;
+        border: 0;
+        border-radius: 10px;
+        margin-top: 15px;
+        }:hover{
+            background-color: #202020;
+            color: #0085C1;
+            }
+    }
+    .c{
+        grid-area: c;
+        padding: 10px;
+    }
+    .d{
+        grid-area: d;
+        padding: 10px;
+    }
+    .e{
+        grid-area: e;
+        padding: 10px;
+    }
+    .f{
+        grid-area: f;
+        padding: 10px;
+    }
 }
 .titulo-seccion{
     font-size: 38px;
@@ -77,4 +74,10 @@ form textarea {
     border-radius: 8px;
     margin: 20px 35%;
     padding: 5px 0;
+}
+.ubicacion{
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
