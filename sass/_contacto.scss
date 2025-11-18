@@ -1,7 +1,7 @@
 @use "variables" as v;
 
 form {
-    background-color: #0085C1;
+    background-color: v.$background-primario;
     border-radius: 10px;
     padding: 25px;
     margin-top: 20px;
@@ -41,14 +41,14 @@ form {
         text-decoration: none;
         padding: 7.8px 25px;
         font-size: 18px;
-        background-color: #fff;
-        color: #0085C1;
+        background-color: v.$color-primario;
+        color: v.$background-primario;
         border: 0;
         border-radius: 10px;
         margin-top: 15px;
         }:hover{
             background-color: #202020;
-            color: #0085C1;
+            color: v.$background-primario;
             }
     }
     .c{
@@ -70,7 +70,7 @@ form {
 }
 .titulo-seccion{
     font-size: 38px;
-    background-color: #0085C1;
+    background-color: v.$background-primario;
     border-radius: 8px;
     margin: 20px 35%;
     padding: 5px 0;

@@ -3,8 +3,8 @@
 header {
     font-family: v.$fuente;
     display: flex;
-    background-color: #0085C1;
-    color: #fff;
+    background-color: v.$background-primario;
+    color: v.$color-primario;
 }
 .header1 {
     width: 85%;
@@ -26,7 +26,7 @@ header {
     border-radius: 5px;
 }
 .navbar-nav .dropdown-menu {
-    background-color: #0085C1;
+    background-color: v.$background-primario;
     border: 0;
 }
 .container-fluid{
@@ -40,7 +40,7 @@ header {
     margin-right: 15px;
 }
 .navbar{
-    background-color: #0085C1 !important;
+    background-color: v.$background-primario !important;
     padding: 0;
     margin: 0;
 }
@@ -60,7 +60,7 @@ header {
 }
 .nav-link:hover{
     background-color: #bfbfbf;
-    color: #0085C1;
+    color: v.$background-primario;
 }
 .nav-link:focus{
     background-color: #e7e7e7;
@@ -76,7 +76,7 @@ header {
 }
 .btn{
     color: #e7e7e7;
-    background-color: #0085C1;
+    background-color: v.$background-primario;
     border: 2px solid #e7e7e7;
     font-weight: bold;
 }
@@ -122,18 +122,18 @@ header nav ul li {
     margin: 25px;
 }
 header nav ul li a {
-    color: #fff;
+    color: v.$color-primario;
     text-decoration: none;
     font-size: 28px;
 }
 header ul li a {
     margin: 8px;
-    color: #fff;
+    color: v.$color-primario;
     text-decoration: none;
     font-size: 20px;
 }
 .link-menu:hover{
-    color: #0085C1;
+    color: v.$background-primario;
     background-color: #e7e7e7;
     border-radius: 8px;
     padding: 8px;
@@ -161,10 +161,7 @@ header ul li a {
     }
     .navbar-nav{
         margin-top: 50px;
-        background-color: #0085C1;
-        height: auto;
-        border-radius: 8px;
-        background-color: #0085C1;
+        background-color: v.$background-primario;
         height: auto;
         border-radius: 8px;
         position: absolute;
