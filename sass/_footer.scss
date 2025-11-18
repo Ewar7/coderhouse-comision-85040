@@ -2,12 +2,12 @@
 
 footer {
     text-align: center;
-    background-color: #0085C1;
-    color: #fff;
+    background-color: v.$background-primario;
+    color: v.$color-primario;
     section{
         .boletin-footer {
-            background-color: #fff;
-            color: #0085C1;
+            background-color: v.$color-primario;
+            color: v.$background-primario;
             display: flex;
             font-size: 20px;
             justify-content: center;
@@ -36,8 +36,8 @@ footer input{
     padding: 7.8px 25px;
     font-size: 18px;
     position: relative;
-    background-color: #0085C1;
-    color: #fff;
+    background-color: v.$background-primario;
+    color: v.$color-primario;
     border: 0;
     border-radius: 10px;
 }
