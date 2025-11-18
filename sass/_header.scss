@@ -64,7 +64,7 @@ header {
 }
 .nav-link:focus{
     background-color: #e7e7e7;
-    color: #000000;
+    color: v.$color-secundario;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: #333;
@@ -75,14 +75,14 @@ header {
     margin: 0;
 }
 .btn{
-    color: #e7e7e7;
+    color: v.$background-secundario;
     background-color: v.$background-primario;
-    border: 2px solid #e7e7e7;
+    border: 2px solid v.$background-secundario;
     font-weight: bold;
 }
 .btn:hover{
-    color: #000000;
-    background-color: #bfbfbf;
+    color: v.$color-secundario;
+    background-color: v.$background-secundario;
     transform: scale(1.1);
     border-color: #86b7fe;
 }
@@ -150,7 +150,7 @@ header ul li a {
 @media (min-width: 320px) and (max-width: 430px){
     header {
         display: flex;
-        background-color: #000000;
+        background-color: v.$color-secundario;
     }
     .header1{
         width: 100%;

@@ -8,7 +8,7 @@ main h1{
     margin-bottom: 20px;
 }
 main {
-    background-color: #bfbfbf;
+    background-color: v.$background-secundario;
     color: v.$color-primario;
     text-align: center;
     padding: 20px;
@@ -32,7 +32,7 @@ main {
     background-color: v.$background-primario;
     border-radius: 15px;
     padding: 10px;
-    color: #e7e7e7;
+    color: v.$background-secundario;
     font-size: 20px;
 }
 .parrafo-nosotros1{
