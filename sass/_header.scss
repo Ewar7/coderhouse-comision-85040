@@ -5,15 +5,15 @@ header {
     display: flex;
     background-color: v.$background-primario;
     color: v.$color-primario;
-}
-.header1 {
-    width: 85%;
-}
-.header2 {
-    display: flex;
-    width: 15%;
-    align-items: center;
-    justify-content: center;
+    .header1 {
+        width: 85%;
+    }
+    .header2 {
+        display: flex;
+        width: 15%;
+        align-items: center;
+        justify-content: center;
+    }
 }
 .dropdown-item {
     font-size: 28px;

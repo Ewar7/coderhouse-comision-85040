@@ -18,12 +18,10 @@ header {
   background-color: #0085C1;
   color: #fff;
 }
-
-.header1 {
+header .header1 {
   width: 85%;
 }
-
-.header2 {
+header .header2 {
   display: flex;
   width: 15%;
   align-items: center;
@@ -32,12 +30,12 @@ header {
 
 .dropdown-item {
   font-size: 28px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .dropdown-item:hover {
   font-size: 30px;
-  color: #171717;
+  color: #202020;
   background-color: #e7e7e7;
   border-radius: 5px;
 }
@@ -87,7 +85,7 @@ header {
 
 .nav-link:focus {
   background-color: #e7e7e7;
-  color: #000000;
+  color: #202020;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
@@ -101,14 +99,14 @@ header {
 }
 
 .btn {
-  color: #e7e7e7;
+  color: #bfbfbf;
   background-color: #0085C1;
-  border: 2px solid #e7e7e7;
+  border: 2px solid #bfbfbf;
   font-weight: bold;
 }
 
 .btn:hover {
-  color: #000000;
+  color: #202020;
   background-color: #bfbfbf;
   transform: scale(1.1);
   border-color: #86b7fe;
@@ -191,7 +189,7 @@ header ul li a {
 @media (min-width: 320px) and (max-width: 430px) {
   header {
     display: flex;
-    background-color: #000000;
+    background-color: #202020;
   }
   .header1 {
     width: 100%;
@@ -202,9 +200,6 @@ header ul li a {
   }
   .navbar-nav {
     margin-top: 50px;
-    background-color: #0085C1;
-    height: auto;
-    border-radius: 8px;
     background-color: #0085C1;
     height: auto;
     border-radius: 8px;
@@ -243,7 +238,7 @@ header ul li a {
 }
 
 .carta {
-  background-color: #e7e7e7;
+  background-color: #bfbfbf;
   width: 20%;
   height: auto;
   border-radius: 10px;
@@ -255,7 +250,7 @@ header ul li a {
   width: 85%;
   height: 65%;
   object-fit: contain;
-  border-bottom: solid 2px #171717;
+  border-bottom: solid 2px #202020;
   transition: ease-in-out 0.3s;
 }
 
@@ -264,7 +259,7 @@ header ul li a {
 }
 
 .carta a {
-  color: #171717;
+  color: #202020;
   text-decoration: none;
 }
 
@@ -312,7 +307,7 @@ main h1 {
 
 main {
   background-color: #bfbfbf;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 20px;
 }
@@ -474,7 +469,7 @@ main h1 {
 
 main {
   background-color: #bfbfbf;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 20px;
 }
@@ -500,7 +495,7 @@ main {
   background-color: #0085C1;
   border-radius: 15px;
   padding: 10px;
-  color: #e7e7e7;
+  color: #bfbfbf;
   font-size: 20px;
 }
 
@@ -571,7 +566,7 @@ main {
 }
 
 .carta {
-  background-color: #e7e7e7;
+  background-color: #bfbfbf;
   width: 20%;
   height: auto;
   border-radius: 10px;
@@ -583,7 +578,7 @@ main {
   width: 85%;
   height: 65%;
   object-fit: contain;
-  border-bottom: solid 2px #171717;
+  border-bottom: solid 2px #202020;
   transition: ease-in-out 0.3s;
 }
 
@@ -592,7 +587,7 @@ main {
 }
 
 .carta a {
-  color: #171717;
+  color: #202020;
   text-decoration: none;
 }
 
@@ -713,7 +708,7 @@ form textarea {
 .lista-preguntas {
   background-color: #0085C1;
   display: flex;
-  padding: 0 35px 5px 0;
+  padding: 20px 35px 5px 0;
   border-radius: 10px;
 }
 
