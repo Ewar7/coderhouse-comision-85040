@@ -27,6 +27,18 @@ header .header2 {
   align-items: center;
   justify-content: center;
 }
+header .header2 nav ul {
+  list-style: none;
+  text-align: center;
+}
+header .header2 .contenedor-redes li {
+  display: inline;
+  list-style: none;
+}
+header .header2 .contenedor-redes ul {
+  margin: 0;
+  padding: 0;
+}
 
 .dropdown-item {
   font-size: 28px;
@@ -49,6 +61,14 @@ header .header2 {
   height: 90px;
   width: 100%;
   padding-left: 50px;
+}
+.container-fluid .logo-header {
+  height: 130px;
+  width: auto;
+  padding-top: 15px;
+}
+.container-fluid .logo-header:hover {
+  transform: scale(1.2);
 }
 
 .collapse {
@@ -97,15 +117,13 @@ header .header2 {
   padding: 0;
   margin: 0;
 }
-
-.btn {
+.d-flex .btn {
   color: #bfbfbf;
   background-color: #0085C1;
   border: 2px solid #bfbfbf;
   font-weight: bold;
 }
-
-.btn:hover {
+.d-flex .btn:hover {
   color: #202020;
   background-color: #bfbfbf;
   transform: scale(1.1);
@@ -117,16 +135,6 @@ header .header2 {
   justify-content: space-around;
   align-items: center;
   height: 100px;
-}
-
-.logo-header {
-  height: 130px;
-  width: auto;
-  padding-top: 15px;
-}
-
-.logo-header:hover {
-  transform: scale(1.05);
 }
 
 .redes {
@@ -144,11 +152,6 @@ input {
   border-radius: 5px;
   border: 0;
   outline: none;
-}
-
-header nav ul {
-  list-style: none;
-  text-align: center;
 }
 
 header nav ul li {
@@ -174,16 +177,6 @@ header ul li a {
   border-radius: 8px;
   padding: 8px;
   transform: scale(2);
-}
-
-.contenedor-redes li {
-  display: inline;
-  list-style: none;
-}
-
-.contenedor-redes ul {
-  margin: 0;
-  padding: 0;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
@@ -227,50 +220,40 @@ header ul li a {
     grid-area: 3;
   }
 }
-.carousel, .slide {
-  width: 90%;
-  margin: auto;
+.contenedor-destacados {
+  width: 100%;
 }
-
-.producto-destacado {
-  display: flex;
-  margin: 20px;
-}
-
-.carta {
-  background-color: #bfbfbf;
+.contenedor-destacados .carta {
+  background-color: #fff;
   width: 20%;
   height: auto;
   border-radius: 10px;
   margin: 0 10px;
   box-shadow: 5px 5px 10px 2px #666666;
 }
-
-.carta img {
+.contenedor-destacados .carta img {
   width: 85%;
   height: 65%;
   object-fit: contain;
   border-bottom: solid 2px #202020;
   transition: ease-in-out 0.3s;
 }
-
-.carta img:hover {
+.contenedor-destacados .carta img:hover {
   transform: scale(1.1);
 }
-
-.carta a {
-  color: #202020;
+.contenedor-destacados .carta a {
+  color: #fff;
   text-decoration: none;
 }
-
-.carta a h2 {
+.contenedor-destacados .carta a h2 {
+  color: #202020;
   padding: 15px 0 15px 0;
   text-align: center;
   font-size: 15px;
   text-transform: uppercase;
+  margin-top: 0;
 }
-
-.carta input {
+.contenedor-destacados .carta input {
   text-decoration: none;
   padding: 7.8px 25px;
   margin-bottom: 20px;
@@ -280,29 +263,8 @@ header ul li a {
   border: 0;
   border-radius: 10px;
 }
-
-.carta input:hover {
+.contenedor-destacados .carta input:hover {
   transform: scale(1.1);
-}
-
-.carta-tienda {
-  width: 16.6666666667%;
-}
-
-.carta a h2 {
-  margin-top: 0;
-}
-
-.contenedor-destacados {
-  width: 100%;
-}
-
-main h1 {
-  font-size: 50px;
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 5px #666666;
-  margin-bottom: 20px;
 }
 
 main {
@@ -311,6 +273,13 @@ main {
   text-align: center;
   padding: 20px;
 }
+main h1 {
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #666666;
+  margin-bottom: 20px;
+}
 
 .titulo-seccion {
   font-size: 38px;
@@ -318,6 +287,16 @@ main {
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
+}
+
+.carousel, .slide {
+  width: 90%;
+  margin: auto;
+}
+
+.producto-destacado {
+  display: flex;
+  margin: 20px;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
@@ -566,7 +545,7 @@ main {
 }
 
 .carta {
-  background-color: #bfbfbf;
+  background-color: #fff;
   width: 20%;
   height: auto;
   border-radius: 10px;

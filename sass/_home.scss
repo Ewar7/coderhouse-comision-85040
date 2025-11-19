@@ -1,75 +1,62 @@
 @use "variables" as v;
 
-.carousel, .slide {
-    width: 90%;
-    margin: auto;
-}
-.producto-destacado{
-    display: flex;
-    margin: 20px;
-}
-.carta {
-    background-color: v.$background-secundario;
-    width: calc(100%/5);
-    height: auto;
-    border-radius: 10px;
-    margin: 0 10px;
-    box-shadow: 5px 5px 10px 2px #666666;
-}
-.carta img {
-    width: 85%;
-    height: 65%;
-    object-fit: contain;
-    border-bottom: solid 2px v.$color-secundario;
-    transition: ease-in-out 0.3s;
-}
-.carta img:hover{
-    transform: scale(1.1);
-}
-.carta a{
-    color: v.$color-secundario;
-    text-decoration: none;
-}
-.carta a h2{
-    padding: 15px 0 15px 0;
-    text-align: center;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-.carta input{
-    text-decoration: none;
-    padding: 7.8px 25px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    background-color: v.$background-primario;
-    color: v.$color-primario;
-    border: 0;
-    border-radius: 10px;
-}
-.carta input:hover{
-    transform: scale(1.1);
-}
-.carta-tienda {
-    width: calc(100%/6);
-}
-.carta a h2 {
-    margin-top: 0;
-}
 .contenedor-destacados{
     width: 100%;
-}
-main h1{
-    font-size: 50px;
-    color: v.$color-primario;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 5px #666666;
-    margin-bottom: 20px;
+    .carta {
+        background-color: v.$color-primario;
+        width: calc(100%/5);
+        height: auto;
+        border-radius: 10px;
+        margin: 0 10px;
+        box-shadow: 5px 5px 10px 2px #666666;
+        img{
+        width: 85%;
+        height: 65%;
+        object-fit: contain;
+        border-bottom: solid 2px v.$color-secundario;
+        transition: ease-in-out 0.3s;
+        }
+        img:hover{
+        transform: scale(1.1);
+        }
+        a{
+        color: v.$color-primario;
+        text-decoration: none;
+        h2{
+        color: v.$color-secundario;
+        padding: 15px 0 15px 0;
+        text-align: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 0;
+        }
+        }
+        input{
+        text-decoration: none;
+        padding: 7.8px 25px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        background-color: v.$background-primario;
+        color: v.$color-primario;
+        border: 0;
+        border-radius: 10px;
+        }input:hover{
+        transform: scale(1.1);
+        }
+    }
 }
 main {
     background-color: v.$background-secundario;
     color: v.$color-primario;
     text-align: center;
     padding: 20px;
+    h1{
+    font-size: 50px;
+    color: v.$color-primario;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #666666;
+    margin-bottom: 20px;
+    }
 }
 .titulo-seccion{
     font-size: 38px;
@@ -78,12 +65,20 @@ main {
     margin: 20px 35%;
     padding: 5px 0;
 }
+.carousel, .slide {
+    width: 90%;
+    margin: auto;
+}
+.producto-destacado{
+    display: flex;
+    margin: 20px;
+}
 @media (min-width: 320px) and (max-width: 430px){
     .carta{
         width: auto !important;
-    }
-    .carta a h2{
+        a h2{
         text-transform: capitalize;
+        }
     }
     main h1 {
         font-size: 18px;

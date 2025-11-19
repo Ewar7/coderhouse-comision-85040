@@ -13,6 +13,20 @@ header {
         width: 15%;
         align-items: center;
         justify-content: center;
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+        .contenedor-redes{
+            li{
+                display: inline;
+                list-style: none;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+            }
+        }
     }
 }
 .dropdown-item {
@@ -33,6 +47,13 @@ header {
     height: 90px;
     width: 100%;
     padding-left: 50px;
+    .logo-header{
+        height: 130px;
+        width: auto;
+        padding-top: 15px;
+    }.logo-header:hover{
+        transform: scale(1.2);
+    }
 }
 .collapse{
     font-size: 20px;
@@ -73,32 +94,23 @@ header {
     border-radius: 10px;
     padding: 0;
     margin: 0;
-}
-.btn{
-    color: v.$background-secundario;
-    background-color: v.$background-primario;
-    border: 2px solid v.$background-secundario;
-    font-weight: bold;
-}
-.btn:hover{
-    color: v.$color-secundario;
-    background-color: v.$background-secundario;
-    transform: scale(1.1);
-    border-color: #86b7fe;
+    .btn{
+        color: v.$background-secundario;
+        background-color: v.$background-primario;
+        border: 2px solid v.$background-secundario;
+        font-weight: bold;
+    }.btn:hover{
+        color: v.$color-secundario;
+        background-color: v.$background-secundario;
+        transform: scale(1.1);
+        border-color: #86b7fe;
+    }
 }
 .contenedor-header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100px;
-}
-.logo-header{
-    height: 130px;
-    width: auto;
-    padding-top: 15px;
-}
-.logo-header:hover{
-    transform: scale(1.05);
 }
 .redes{
     height: auto;
@@ -113,10 +125,6 @@ input {
     border-radius: 5px;
     border: 0;
     outline: none;
-}
-header nav ul {
-    list-style: none;
-    text-align: center;
 }
 header nav ul li {
     margin: 25px;
@@ -138,14 +146,6 @@ header ul li a {
     border-radius: 8px;
     padding: 8px;
     transform: scale(2);
-}
-.contenedor-redes li {
-    display: inline;
-    list-style: none;
-}
-.contenedor-redes ul {
-    margin: 0;
-    padding: 0;
 }
 @media (min-width: 320px) and (max-width: 430px){
     header {
