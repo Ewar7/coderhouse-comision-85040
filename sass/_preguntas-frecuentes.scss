@@ -11,7 +11,25 @@
 }
 .accordion-item{
     border: 0;
+    background-color: v.$background-primario;
 }
+.accordion-body{
+    background-color: v.$background-primario;
+    color: v.$color-primario;
+}
+.accordion-button{
+    background-color: v.$background-primario;
+    color: v.$color-primario;
+    border-radius: 5px;
+}.accordion-button:after{
+    background-color: v.$background-primario;
+    color: antiquewhite;
+}.accordion-button:not(.collapsed){
+    background-color: v.$background-primario;
+    color: v.$color-primario;
+    font-size: 20px;
+}
+
 .preguntas-1{
     width: calc(100%/2);
 }

@@ -15,7 +15,7 @@
 header {
   font-family: "Roboto Flex", sans-serif;
   display: flex;
-  background-color: #0085C1;
+  background-color: #7b008b;
   color: #fff;
 }
 header .header1 {
@@ -53,7 +53,7 @@ header .header2 .contenedor-redes ul {
 }
 
 .navbar-nav .dropdown-menu {
-  background-color: #0085C1;
+  background-color: #7b008b;
   border: 0;
 }
 
@@ -78,7 +78,7 @@ header .header2 .contenedor-redes ul {
 }
 
 .navbar {
-  background-color: #0085C1 !important;
+  background-color: #7b008b !important;
   padding: 0;
   margin: 0;
 }
@@ -100,7 +100,7 @@ header .header2 .contenedor-redes ul {
 
 .nav-link:hover {
   background-color: #bfbfbf;
-  color: #0085C1;
+  color: #7b008b;
 }
 
 .nav-link:focus {
@@ -118,14 +118,14 @@ header .header2 .contenedor-redes ul {
   margin: 0;
 }
 .d-flex .btn {
-  color: #bfbfbf;
-  background-color: #0085C1;
-  border: 2px solid #bfbfbf;
+  color: #dbdbdb;
+  background-color: #7b008b;
+  border: 2px solid #dbdbdb;
   font-weight: bold;
 }
 .d-flex .btn:hover {
   color: #202020;
-  background-color: #bfbfbf;
+  background-color: #dbdbdb;
   transform: scale(1.1);
   border-color: #86b7fe;
 }
@@ -172,7 +172,7 @@ header ul li a {
 }
 
 .link-menu:hover {
-  color: #0085C1;
+  color: #7b008b;
   background-color: #e7e7e7;
   border-radius: 8px;
   padding: 8px;
@@ -193,7 +193,7 @@ header ul li a {
   }
   .navbar-nav {
     margin-top: 50px;
-    background-color: #0085C1;
+    background-color: #7b008b;
     height: auto;
     border-radius: 8px;
     position: absolute;
@@ -258,7 +258,7 @@ header ul li a {
   padding: 7.8px 25px;
   margin-bottom: 20px;
   font-size: 18px;
-  background-color: #0085C1;
+  background-color: #7b008b;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -268,7 +268,7 @@ header ul li a {
 }
 
 main {
-  background-color: #bfbfbf;
+  background-color: #dbdbdb;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -283,7 +283,7 @@ main h1 {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #0085C1;
+  background-color: #7b008b;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -315,12 +315,12 @@ main h1 {
 }
 footer {
   text-align: center;
-  background-color: #0085C1;
+  background-color: #7b008b;
   color: #fff;
 }
 footer section .boletin-footer {
   background-color: #fff;
-  color: #0085C1;
+  color: #7b008b;
   display: flex;
   font-size: 20px;
   justify-content: center;
@@ -351,7 +351,7 @@ footer input {
   padding: 7.8px 25px;
   font-size: 18px;
   position: relative;
-  background-color: #0085C1;
+  background-color: #7b008b;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -428,7 +428,7 @@ footer input {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #0085C1;
+  background-color: #7b008b;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -447,7 +447,7 @@ main h1 {
 }
 
 main {
-  background-color: #bfbfbf;
+  background-color: #dbdbdb;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -455,7 +455,7 @@ main {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #0085C1;
+  background-color: #7b008b;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -471,10 +471,10 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  background-color: #0085C1;
+  background-color: #7b008b;
   border-radius: 15px;
   padding: 10px;
-  color: #bfbfbf;
+  color: #dbdbdb;
   font-size: 20px;
 }
 
@@ -526,9 +526,65 @@ main {
   align-content: center;
 }
 
+.pagina-producto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+  padding: 50px 0 50px 0;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 2px #666666;
+  margin-bottom: 25px;
+  color: #202020;
+}
+.pagina-producto ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.pagina-producto .p1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: start;
+}
+.pagina-producto .p1 .precio-articulo {
+  display: flex;
+  margin: 20px 50px 40px 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-bottom: 2px solid #202020;
+}
+.pagina-producto .p1 h1 {
+  color: #202020;
+}
+.pagina-producto .p1 h2 {
+  color: #7b008b;
+  margin-right: 50px;
+}
+.pagina-producto .p2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.pagina-producto .p2 .imagen-producto {
+  display: grid;
+  grid-template-areas: "a a a" "a a a" "a a a" "b c d";
+}
+.pagina-producto .p2 .imagen-producto .hd1 {
+  grid-area: a;
+}
+.pagina-producto .p2 .imagen-producto .hd2 {
+  grid-area: b;
+}
+.pagina-producto .p2 .imagen-producto .hd3 {
+  grid-area: c;
+}
+.pagina-producto .p2 .imagen-producto .hd4 {
+  grid-area: d;
+}
+
 .titulo-seccion {
   font-size: 38px;
-  background-color: #0085C1;
+  background-color: #7b008b;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -582,7 +638,7 @@ main {
   padding: 7.8px 25px;
   margin-bottom: 20px;
   font-size: 18px;
-  background-color: #0085C1;
+  background-color: #7b008b;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -605,7 +661,7 @@ main {
 }
 
 form {
-  background-color: #0085C1;
+  background-color: #7b008b;
   border-radius: 10px;
   padding: 25px;
   margin-top: 20px;
@@ -643,14 +699,14 @@ form textarea {
   padding: 7.8px 25px;
   font-size: 18px;
   background-color: #fff;
-  color: #0085C1;
+  color: #7b008b;
   border: 0;
   border-radius: 10px;
   margin-top: 15px;
 }
 .formulario .b :hover {
   background-color: #202020;
-  color: #0085C1;
+  color: #7b008b;
 }
 .formulario .c {
   grid-area: c;
@@ -671,7 +727,7 @@ form textarea {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #0085C1;
+  background-color: #7b008b;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -685,7 +741,7 @@ form textarea {
 }
 
 .lista-preguntas {
-  background-color: #0085C1;
+  background-color: #7b008b;
   display: flex;
   padding: 20px 35px 5px 0;
   border-radius: 10px;
@@ -697,6 +753,29 @@ form textarea {
 
 .accordion-item {
   border: 0;
+  background-color: #7b008b;
+}
+
+.accordion-body {
+  background-color: #7b008b;
+  color: #fff;
+}
+
+.accordion-button {
+  background-color: #7b008b;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.accordion-button:after {
+  background-color: #7b008b;
+  color: antiquewhite;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #7b008b;
+  color: #fff;
+  font-size: 20px;
 }
 
 .preguntas-1 {
@@ -713,7 +792,7 @@ main section article div ul {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #0085C1;
+  background-color: #7b008b;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
