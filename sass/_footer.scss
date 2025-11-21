@@ -108,3 +108,26 @@ footer input{
     }
 
 }
+@media (min-width: 431px) and (max-width: 1321px){
+    .redes-footer{
+        display: flex;
+        justify-content: center;
+    }
+    .img-footer{
+        width: 75%;
+        height: auto;
+    }
+    .derechos h3{
+        width: 100%;
+        margin: 20px 0 10px 0;
+        font-size: 14px;
+        text-align: center;
+    }
+    .boton-whatsapp{
+        position: fixed;
+        width: 50px;
+        height: auto;
+        left: 5vh;
+        bottom: 5vh;
+    }
+}
