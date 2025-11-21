@@ -182,14 +182,27 @@ header ul li a {
 @media (min-width: 320px) and (max-width: 430px) {
   header {
     display: flex;
-    background-color: #202020;
+    background-color: #7b008b;
+    position: relative;
+  }
+  header .form-control {
+    display: none;
+  }
+  header .btn {
+    display: none;
+  }
+  header .navbar-toggler {
+    position: absolute;
   }
   .header1 {
-    width: 100%;
     margin: auto;
   }
   .header2 {
-    display: none;
+    display: none !important;
+  }
+  .navbar .container-fluid {
+    flex-wrap: unset;
+    padding-left: 0;
   }
   .navbar-nav {
     margin-top: 50px;
@@ -202,19 +215,18 @@ header ul li a {
   .nav-link {
     padding: 0 100px;
   }
-  .container-fluid {
-    padding: 10px;
-    display: flex;
-    width: 100%;
-  }
   .contenedor-redes {
     display: none;
   }
   .logo-header {
-    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  .d-flex .buscador-header {
-    display: none;
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .menu-header {
     grid-area: 3;
@@ -300,17 +312,20 @@ main h1 {
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
-  .carta {
+  main .carta {
     width: auto !important;
   }
-  .carta a h2 {
+  main .carta a h2 {
     text-transform: capitalize;
   }
   main h1 {
-    font-size: 18px;
+    font-size: 25px !important;
   }
-  .titulo-seccion {
+  main .titulo-seccion {
     font-size: 18px !important;
+  }
+  main input {
+    border-radius: 0 0 10px 10px !important;
   }
 }
 footer {
@@ -322,14 +337,25 @@ footer section .boletin-footer {
   background-color: #fff;
   color: #7b008b;
   display: flex;
-  font-size: 20px;
+  font-size: 12px;
   justify-content: center;
   align-items: center;
   padding: 10px;
   gap: 10px;
 }
+footer section .boletin-footer .boton-boletin {
+  font-size: 12px;
+  margin-right: 12px;
+}
 footer section h2 {
-  margin-top: 20px;
+  margin-top: 12px;
+}
+footer section h3 {
+  font-size: 12px;
+  margin-left: 12px;
+}
+footer section input {
+  padding-right: 0;
 }
 
 footer ul li {
@@ -400,8 +426,10 @@ footer input {
     height: auto;
   }
   .derechos h3 {
-    margin-top: 10px;
+    width: 100%;
+    margin: 20px 0 10px 0;
     font-size: 12px;
+    text-align: center;
   }
   .boton-whatsapp {
     position: fixed;

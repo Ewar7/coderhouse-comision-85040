@@ -150,14 +150,29 @@ header ul li a {
 @media (min-width: 320px) and (max-width: 430px){
     header {
         display: flex;
-        background-color: v.$color-secundario;
+        background-color: v.$background-primario;
+        position: relative;
+        .form-control{
+            display: none;
+        }
+        .btn{
+            display: none;
+        }
+        .navbar-toggler{
+            position: absolute;
+        }
     }
     .header1{
-        width: 100%;
         margin: auto;
     }
     .header2{
-        display: none;
+        display: none !important;
+    }
+    .navbar{
+        .container-fluid{
+            flex-wrap: unset;
+            padding-left: 0;
+        }
     }
     .navbar-nav{
         margin-top: 50px;
@@ -170,22 +185,20 @@ header ul li a {
     .nav-link{
         padding: 0 100px;
     }
-    .container-fluid{
-        padding: 10px;
-        display: flex;
-        width: 100%;
-    }
     .contenedor-redes {
         display: none;
     }
     .logo-header{
-        display: none;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%)
     }
-    .d-flex .buscador-header{
-        display: none;
+    .navbar-brand{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .menu-header{
         grid-area: 3;
     }
-
 }

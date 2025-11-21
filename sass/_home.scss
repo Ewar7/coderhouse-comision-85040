@@ -74,16 +74,21 @@ main {
     margin: 20px;
 }
 @media (min-width: 320px) and (max-width: 430px){
-    .carta{
-        width: auto !important;
+    main{
+        .carta{
+    width: auto !important;
         a h2{
         text-transform: capitalize;
         }
     }
-    main h1 {
-        font-size: 18px;
+    h1{
+        font-size: 25px !important;
     }
     .titulo-seccion {
         font-size: 18px !important;
     }
+    input{
+        border-radius: 0 0 10px 10px !important;
+    }
+}
 }
