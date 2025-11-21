@@ -202,3 +202,55 @@ header ul li a {
         grid-area: 3;
     }
 }
+@media (min-width: 431px) and (max-width: 1321px){
+    header{
+       display: flex;
+       background-color: v.$background-primario;
+       position: relative;
+       .form-control{
+        display: none;
+       }
+       .btn{
+        display: none;
+       }
+       .navbar-toggler{
+        position: absolute;
+       }
+    }
+    .header1{
+        margin: auto;
+    }
+    .header2{
+        display: none !important;
+    }
+    .navbar{
+        .container-fluid{
+            flex-wrap: unset;
+            padding-left: 0;
+        }
+    }
+    .navbar-nav{
+        margin-top: 50px;
+        background-color: v.$background-primario;
+        height: auto;
+        border-radius: 8px;
+        position: absolute;
+        z-index: 3;
+    }
+    .nav-link{
+        padding: 0 100px;
+    }
+    .contenedor-redes{
+        display: none;
+    }
+    .logo-header{
+        position: absolute;
+        left: 50px;
+        transform: translateX(-50%);
+    }
+    .navbar-brand{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
