@@ -109,6 +109,11 @@ footer input{
 
 }
 @media (min-width: 431px) and (max-width: 1321px){
+    .boletin-footer{
+        h3{
+            font-size: 18px;
+        }
+    }
     .redes-footer{
         display: flex;
         justify-content: center;
