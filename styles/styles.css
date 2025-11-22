@@ -584,6 +584,38 @@ footer input {
   font-size: 15px;
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+  .item-tienda {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item-tienda .carta {
+    height: 270px;
+  }
+  .carta-tienda {
+    width: auto;
+    height: fit-content;
+  }
+  .carta-tienda input {
+    border-radius: 10px 10px !important;
+  }
+}
+@media (min-width: 431px) and (max-width: 800px) {
+  .item-tienda {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item-tienda .carta {
+    height: auto;
+  }
+  .carta-tienda {
+    width: auto;
+    height: fit-content;
+  }
+  .carta-tienda input {
+    border-radius: 10px 10px !important;
+  }
+}
 main h1 {
   font-size: 50px;
   color: #fff;
