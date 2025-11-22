@@ -161,6 +161,13 @@ header ul li a {
         .navbar-toggler{
             position: absolute;
         }
+        nav{
+            ul{
+                li{
+                    margin: 0;
+                }
+            }
+        }
     }
     .header1{
         margin: auto;
@@ -172,6 +179,14 @@ header ul li a {
         .container-fluid{
             flex-wrap: unset;
             padding-left: 0;
+            .logo-header{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                .logo-header:hover{
+                        transform: scale(1);
+                    }
+            }
         }
     }
     .navbar-nav{
@@ -181,17 +196,16 @@ header ul li a {
         border-radius: 8px;
         position: absolute;
         z-index: 3;
+        align-items: unset;
     }
     .nav-link{
+        font-size: 28px;
+        font-weight: 500;
+        color: v.$color-primario;
         padding: 0 100px;
     }
     .contenedor-redes {
         display: none;
-    }
-    .logo-header{
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%)
     }
     .navbar-brand{
         display: flex;
@@ -202,20 +216,27 @@ header ul li a {
         grid-area: 3;
     }
 }
-@media (min-width: 431px) and (max-width: 1400px){
+@media (min-width: 431px) and (max-width: 800px){
     header{
-       display: flex;
-       background-color: v.$background-primario;
-       position: relative;
-       .form-control{
-        display: none;
-       }
-       .btn{
-        display: none;
-       }
-       .navbar-toggler{
-        position: absolute;
-       }
+        display: flex;
+        background-color: v.$background-primario;
+        position: relative;
+        .form-control{
+            display: none;
+        }
+        .btn{
+            display: none;
+        }
+        .navbar-toggler{
+            position: absolute;
+        }
+        nav{
+            ul{
+                li{
+                    margin: 0;
+                }
+            }
+        }
     }
     .header1{
         margin: auto;
@@ -227,6 +248,14 @@ header ul li a {
         .container-fluid{
             flex-wrap: unset;
             padding-left: 0;
+            .logo-header{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                .logo-header:hover{
+                        transform: scale(1);
+                    }
+            }
         }
     }
     .navbar-nav{
@@ -236,8 +265,12 @@ header ul li a {
         border-radius: 8px;
         position: absolute;
         z-index: 3;
+        align-items: unset;
     }
     .nav-link{
+        font-size: 28px;
+        font-weight: 500;
+        color: v.$color-primario;
         padding: 0 100px;
     }
     .contenedor-redes{
@@ -245,12 +278,15 @@ header ul li a {
     }
     .logo-header{
         position: absolute;
-        left: 50px;
+        left: 50%;
         transform: translateX(-50%);
     }
+    .logo-header:hover{
+            transform: scale(1);
+        }
     .navbar-brand{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-!important}
+}

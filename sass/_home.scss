@@ -92,3 +92,22 @@ main {
     }
 }
 }
+@media (min-width: 431px) and (max-width: 800px){
+    main{
+        input{
+            border-radius: 0 0 10px 10px !important;
+        }
+        .carta{
+            width: auto !important;
+            a h2{
+            text-transform: capitalize;
+            }
+        }
+        h1{
+            font-size: 25px !important;
+        }
+        .titulo-seccion {
+            font-size: 18px !important;
+        }
+    }
+}
