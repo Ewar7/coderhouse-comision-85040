@@ -15,7 +15,7 @@
 header {
   font-family: "Roboto Flex", sans-serif;
   display: flex;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   color: #fff;
 }
 header .header1 {
@@ -53,7 +53,7 @@ header .header2 .contenedor-redes ul {
 }
 
 .navbar-nav .dropdown-menu {
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border: 0;
 }
 
@@ -78,7 +78,7 @@ header .header2 .contenedor-redes ul {
 }
 
 .navbar {
-  background-color: #7b008b !important;
+  background-color: #22bc8e !important;
   padding: 0;
   margin: 0;
 }
@@ -100,7 +100,7 @@ header .header2 .contenedor-redes ul {
 
 .nav-link:hover {
   background-color: #bfbfbf;
-  color: #7b008b;
+  color: #22bc8e;
 }
 
 .nav-link:focus {
@@ -119,7 +119,7 @@ header .header2 .contenedor-redes ul {
 }
 .d-flex .btn {
   color: #dbdbdb;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border: 2px solid #dbdbdb;
   font-weight: bold;
 }
@@ -172,7 +172,7 @@ header ul li a {
 }
 
 .link-menu:hover {
-  color: #7b008b;
+  color: #22bc8e;
   background-color: #e7e7e7;
   border-radius: 8px;
   padding: 8px;
@@ -182,7 +182,7 @@ header ul li a {
 @media (min-width: 320px) and (max-width: 430px) {
   header {
     display: flex;
-    background-color: #7b008b;
+    background-color: #22bc8e;
     position: relative;
   }
   header .form-control {
@@ -217,7 +217,7 @@ header ul li a {
   }
   .navbar-nav {
     margin-top: 50px;
-    background-color: #7b008b;
+    background-color: #22bc8e;
     height: auto;
     border-radius: 8px;
     position: absolute;
@@ -245,7 +245,7 @@ header ul li a {
 @media (min-width: 431px) and (max-width: 800px) {
   header {
     display: flex;
-    background-color: #7b008b;
+    background-color: #22bc8e;
     position: relative;
   }
   header .form-control {
@@ -280,7 +280,7 @@ header ul li a {
   }
   .navbar-nav {
     margin-top: 50px;
-    background-color: #7b008b;
+    background-color: #22bc8e;
     height: auto;
     border-radius: 8px;
     position: absolute;
@@ -348,7 +348,7 @@ header ul li a {
   padding: 7.8px 25px;
   margin-bottom: 20px;
   font-size: 18px;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -373,7 +373,7 @@ main h1 {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -425,12 +425,12 @@ main h1 {
 }
 footer {
   text-align: center;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   color: #fff;
 }
 footer section .boletin-footer {
   background-color: #fff;
-  color: #7b008b;
+  color: #22bc8e;
   display: flex;
   font-size: 12px;
   justify-content: center;
@@ -472,7 +472,7 @@ footer input {
   padding: 7.8px 25px;
   font-size: 18px;
   position: relative;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -577,7 +577,7 @@ footer input {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -636,7 +636,7 @@ main {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -652,7 +652,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border-radius: 15px;
   padding: 10px;
   color: #dbdbdb;
@@ -735,6 +735,7 @@ main {
     font-size: 15px;
     text-align: justify;
     padding: 15px;
+    color: #fff;
   }
   .video-nosotros {
     display: none;
@@ -777,7 +778,7 @@ main {
   color: #202020;
 }
 .pagina-producto .p1 h2 {
-  color: #7b008b;
+  color: #22bc8e;
   margin-right: 50px;
 }
 .pagina-producto .p2 {
@@ -865,7 +866,7 @@ main {
 }
 .titulo-seccion {
   font-size: 38px;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -919,7 +920,7 @@ main {
   padding: 7.8px 25px;
   margin-bottom: 20px;
   font-size: 18px;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -942,7 +943,7 @@ main {
 }
 
 form {
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border-radius: 10px;
   padding: 25px;
   margin-top: 20px;
@@ -980,14 +981,14 @@ form textarea {
   padding: 7.8px 25px;
   font-size: 18px;
   background-color: #fff;
-  color: #7b008b;
+  color: #22bc8e;
   border: 0;
   border-radius: 10px;
   margin-top: 15px;
 }
 .formulario .b :hover {
   background-color: #202020;
-  color: #7b008b;
+  color: #22bc8e;
 }
 .formulario .c {
   grid-area: c;
@@ -1008,7 +1009,7 @@ form textarea {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -1114,7 +1115,7 @@ form textarea {
   }
 }
 .lista-preguntas {
-  background-color: #7b008b;
+  background-color: #22bc8e;
   display: flex;
   padding: 20px 35px 5px 0;
   border-radius: 10px;
@@ -1126,27 +1127,27 @@ form textarea {
 
 .accordion-item {
   border: 0;
-  background-color: #7b008b;
+  background-color: #22bc8e;
 }
 
 .accordion-body {
-  background-color: #7b008b;
+  background-color: #22bc8e;
   color: #fff;
 }
 
 .accordion-button {
-  background-color: #7b008b;
+  background-color: #22bc8e;
   color: #fff;
   border-radius: 5px;
 }
 
 .accordion-button:after {
-  background-color: #7b008b;
+  background-color: #22bc8e;
   color: antiquewhite;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #7b008b;
+  background-color: #22bc8e;
   color: #fff;
   font-size: 20px;
 }
@@ -1165,7 +1166,7 @@ main section article div ul {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #7b008b;
+  background-color: #22bc8e;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
