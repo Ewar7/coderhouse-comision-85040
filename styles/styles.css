@@ -1133,4 +1133,37 @@ main section article div ul {
   padding: 5px 0;
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+  .lista-preguntas {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
+  .lista-preguntas .preguntas-1, .lista-preguntas .preguntas-2 {
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .lista-preguntas .preguntas-1 .accordion-body, .lista-preguntas .preguntas-2 .accordion-body {
+    font-size: 16px;
+    text-align: justify;
+  }
+}
+@media (min-width: 431px) and (max-width: 800px) {
+  .lista-preguntas {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
+  .lista-preguntas .preguntas-1, .lista-preguntas .preguntas-2 {
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .lista-preguntas .preguntas-1 .accordion-body, .lista-preguntas .preguntas-2 .accordion-body {
+    font-size: 16px;
+    text-align: justify;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

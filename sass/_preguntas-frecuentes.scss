@@ -46,3 +46,35 @@ main section article div ul {
     margin: 20px 35%;
     padding: 5px 0;
 }
+@media (min-width: 320px) and (max-width: 430px){
+    .lista-preguntas{
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        .preguntas-1, .preguntas-2{
+            width: 100%;
+            margin-bottom: 0;
+            padding-left: 0;
+            .accordion-body{
+                font-size: 16px;
+                text-align: justify;
+            }
+        }
+    }
+}
+@media (min-width: 431px) and (max-width: 800px){
+    .lista-preguntas{
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        .preguntas-1, .preguntas-2{
+            width: 100%;
+            margin-bottom: 0;
+            padding-left: 0;
+            .accordion-body{
+                font-size: 16px;
+                text-align: justify;
+            }
+        }
+    }
+}
