@@ -707,6 +707,44 @@ main {
   align-content: center;
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotros p {
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+  }
+  .video-nosotros {
+    display: none;
+  }
+  .imagen-nosotros img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+}
+@media (min-width: 431px) and (max-width: 800px) {
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotros p {
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px;
+  }
+  .video-nosotros {
+    display: none;
+  }
+  .imagen-nosotros img {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+  }
+}
 .pagina-producto {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1153,7 +1191,7 @@ main section article div ul {
   .lista-preguntas {
     display: flex;
     flex-direction: column;
-    padding: 8px;
+    padding: 10px 20px;
   }
   .lista-preguntas .preguntas-1, .lista-preguntas .preguntas-2 {
     width: 100%;
@@ -1163,6 +1201,7 @@ main section article div ul {
   .lista-preguntas .preguntas-1 .accordion-body, .lista-preguntas .preguntas-2 .accordion-body {
     font-size: 16px;
     text-align: justify;
+    padding: 16px 0 16px 16px;
   }
 }
 

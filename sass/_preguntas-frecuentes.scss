@@ -66,7 +66,7 @@ main section article div ul {
     .lista-preguntas{
         display: flex;
         flex-direction: column;
-        padding: 8px;
+        padding: 10px 20px;
         .preguntas-1, .preguntas-2{
             width: 100%;
             margin-bottom: 0;
@@ -74,6 +74,7 @@ main section article div ul {
             .accordion-body{
                 font-size: 16px;
                 text-align: justify;
+                padding: 16px 0 16px 16px;
             }
         }
     }
