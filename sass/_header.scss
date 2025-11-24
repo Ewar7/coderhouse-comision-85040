@@ -35,8 +35,8 @@ header {
 }
 .dropdown-item:hover {
     font-size: 30px;
-    color: v.$color-secundario;
-    background-color: #e7e7e7;
+    color: v.$color-primario;
+    background-color: v.$background-terciario;
     border-radius: 5px;
 }
 .navbar-nav .dropdown-menu {
@@ -87,7 +87,6 @@ header {
     color: v.$color-secundario;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-    background-color: v.$background-terciario;
     color: v.$color-primario;
 }
 .d-flex{
@@ -103,7 +102,11 @@ header {
         color: v.$color-secundario;
         background-color: v.$background-terciario;
         transform: scale(1.1);
-        border-color: #86b7fe;
+        border-color: v.$background-secundario;
+    }
+    .form-control:focus{
+        border-color: v.$background-secundario;
+        box-shadow: 0 0 0 .25rem rgba($color: v.$background-secundario, $alpha: .25);
     }
 }
 .contenedor-header{

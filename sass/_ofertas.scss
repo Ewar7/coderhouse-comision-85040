@@ -26,7 +26,7 @@
     justify-content: end;
     width: unset;
     .carousel-control-next-icon{
-        background-color: black;
+        background-color: v.$background-terciario;
         border-radius: 8px;
     }
 }
@@ -34,7 +34,7 @@
     justify-content: start;
     width: unset;
     .carousel-control-prev-icon{
-        background-color: black;
+        background-color: v.$background-terciario;
         border-radius: 8px;
     }
 }
@@ -94,4 +94,14 @@
 }
 .contenedor-destacados{
     width: 100%;
+}
+@media (min-width: 320px) and (max-width: 430px){
+    .titulo-ofertas{
+        font-size: 18px;
+    }
+}
+@media (min-width: 431px) and (max-width: 800px){
+    .titulo-ofertas{
+        font-size: 22px;
+    }
 }

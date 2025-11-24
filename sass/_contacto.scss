@@ -46,9 +46,10 @@ form {
         border: 0;
         border-radius: 10px;
         margin-top: 15px;
-        }:hover{
-            background-color: v.$color-secundario;
-            color: v.$background-primario;
+        }
+        .boton-enviar:hover{
+            background-color: v.$background-terciario;
+            color: v.$color-primario;
             }
     }
     .c{
@@ -70,7 +71,7 @@ form {
 }
 .titulo-seccion{
     font-size: 38px;
-    background-color: v.$background-primario;
+    background-color: v.$background-terciario;
     border-radius: 8px;
     margin: 20px 35%;
     padding: 5px 0;

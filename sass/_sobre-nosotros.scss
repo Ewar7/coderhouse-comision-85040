@@ -102,6 +102,8 @@ main {
         display: none;
     }
     .imagen-nosotros{
+        display: flex;
+        flex-direction: column;
         img{
             width: 100%;
             height: auto;
@@ -124,10 +126,11 @@ main {
         display: none;
     }
     .imagen-nosotros{
+        margin-right: 0;
         img{
             width: 90%;
             height: auto;
-            margin: 10px 0;
+            margin: 10px auto;
         }
     }
 }
