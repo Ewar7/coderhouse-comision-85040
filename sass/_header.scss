@@ -69,10 +69,9 @@ header {
     font-family: "Roboto Flex", sans-serif;
     font-weight: bold;
     color: #e7e7e7;
-    border-bottom: 2px solid #bfbfbf;
+    border-bottom: 2px solid v.$background-terciario;
     height: 44px;
-    display: flex
-;
+    display: flex;
     align-items: center;
 }
 .nav-link{
@@ -80,15 +79,16 @@ header {
     border-radius: 6px 6px 0 0;
 }
 .nav-link:hover{
-    background-color: #bfbfbf;
-    color: v.$background-primario;
+    background-color: v.$background-terciario;
+    color: v.$color-primario;
 }
 .nav-link:focus{
     background-color: #e7e7e7;
     color: v.$color-secundario;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-    color: #333;
+    background-color: v.$background-terciario;
+    color: v.$color-primario;
 }
 .d-flex{
     border-radius: 10px;
@@ -101,7 +101,7 @@ header {
         font-weight: bold;
     }.btn:hover{
         color: v.$color-secundario;
-        background-color: v.$background-secundario;
+        background-color: v.$background-terciario;
         transform: scale(1.1);
         border-color: #86b7fe;
     }

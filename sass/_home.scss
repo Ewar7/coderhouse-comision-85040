@@ -73,6 +73,9 @@ main {
     display: flex;
     margin: 20px;
 }
+.carousel-inner{
+    border-radius: 10px;
+}
 @media (min-width: 320px) and (max-width: 430px){
     main{
         .carta{
