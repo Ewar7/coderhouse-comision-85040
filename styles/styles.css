@@ -131,7 +131,7 @@ header .header2 .contenedor-redes ul {
 }
 .d-flex .form-control:focus {
   border-color: #dbdbdb;
-  box-shadow: 0 0 0 0.25rem rgba(219, 219, 219, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(138, 121, 105, 0.25);
 }
 
 .contenedor-header {
@@ -559,10 +559,10 @@ footer input {
     margin: auto;
   }
   .boletin-footer h3 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .boletin-footer input {
-    font-size: 18px;
+    font-size: 15px;
   }
   .redes-footer {
     display: flex;
@@ -684,8 +684,11 @@ main {
 .parrafo-nosotros1 {
   grid-column: 1/2;
   grid-row: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: justify;
-  padding: 5px 10px;
+  padding: 15px;
 }
 
 .video-nosotros {
@@ -734,8 +737,11 @@ main {
 .parrafo-nosotros2 {
   grid-column: 3/4;
   grid-row: 3/4;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: justify;
+  padding: 15px;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
@@ -776,7 +782,7 @@ main {
     display: none;
   }
   .imagen-nosotros {
-    margin-right: 0;
+    margin: auto;
   }
   .imagen-nosotros img {
     width: 90%;
@@ -976,7 +982,7 @@ main {
   text-decoration: none;
 }
 .carta a h2 {
-  padding: 12px 0 20px 0;
+  padding: 18px 0 20px 0;
   text-align: center;
   font-size: 15px;
   text-transform: uppercase;
@@ -1011,6 +1017,9 @@ main {
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
+  main .carta-tienda h2 {
+    padding-bottom: 10px;
+  }
   .titulo-ofertas {
     font-size: 18px;
   }
@@ -1030,6 +1039,9 @@ form {
 form input {
   display: grid;
   width: 100%;
+}
+form :focus {
+  box-shadow: 0 0 0 0.25rem rgba(32, 32, 32, 0.25);
 }
 form textarea {
   width: 100%;

@@ -63,7 +63,7 @@
         color: v.$color-secundario;
         text-decoration: none;
         h2{
-            padding: 12px 0 20px 0;
+            padding: 18px 0 20px 0;
             text-align: center;
             font-size: 15px;
             text-transform: uppercase;
@@ -96,6 +96,12 @@
     width: 100%;
 }
 @media (min-width: 320px) and (max-width: 430px){
+    main{.carta-tienda{
+        h2{
+            padding-bottom: 10px;
+        }
+    }
+}
     .titulo-ofertas{
         font-size: 18px;
     }

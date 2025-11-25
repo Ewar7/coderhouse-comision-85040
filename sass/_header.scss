@@ -106,7 +106,7 @@ header {
     }
     .form-control:focus{
         border-color: v.$background-secundario;
-        box-shadow: 0 0 0 .25rem rgba($color: v.$background-secundario, $alpha: .25);
+        box-shadow: 0 0 0 .25rem rgba($color: v.$background-terciario, $alpha: .25);
     }
 }
 .contenedor-header{
