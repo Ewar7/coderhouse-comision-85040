@@ -87,7 +87,9 @@ header .header2 .contenedor-redes ul {
   font-family: "Roboto Flex", sans-serif;
   font-weight: bold;
   color: #e7e7e7;
-  border-bottom: 2px solid #8a7969;
+  border-bottom: 2px solid #fff;
+  border-radius: 5px;
+  padding-bottom: 24px;
   height: 44px;
   display: flex;
   align-items: center;
@@ -95,11 +97,13 @@ header .header2 .contenedor-redes ul {
 
 .nav-link {
   color: #e7e7e7;
-  border-radius: 6px 6px 0 0;
+  border-radius: 6px;
 }
 
 .nav-link:hover {
-  background-color: #8a7969;
+  box-shadow: 0px 0px 30px 20px #450463;
+  background: #690587;
+  background: linear-gradient(0deg, rgb(105, 5, 135) 0%, rgb(72, 6, 92) 50%, rgb(105, 5, 135) 100%);
   color: #fff;
 }
 
@@ -124,14 +128,16 @@ header .header2 .contenedor-redes ul {
   font-weight: bold;
 }
 .d-flex .btn:hover {
+  box-shadow: 0px 0px 30px 20px #450463;
   color: #fff;
-  background-color: #8a7969;
+  background: #690587;
+  background: linear-gradient(0deg, rgb(105, 5, 135) 0%, rgb(72, 6, 92) 50%, rgb(105, 5, 135) 100%);
   transform: scale(1.1);
-  border-color: #fff;
+  border: none;
 }
 .d-flex .form-control:focus {
   border-color: #040404;
-  box-shadow: 0 0 0 0.25rem rgba(138, 121, 105, 0.25);
+  box-shadow: 0px 0px 20px 20px #450463;
 }
 
 .contenedor-header {
@@ -159,7 +165,7 @@ input {
 }
 
 header nav ul li {
-  margin: 25px;
+  margin: 15px 25px 0 0;
 }
 
 header nav ul li a {
@@ -405,11 +411,15 @@ main h1 {
   margin-bottom: 20px;
 }
 
+.primer-titulo {
+  margin-top: 60px !important;
+}
+
 .titulo-seccion {
   font-size: 38px;
   background-color: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
   border-radius: 8px;
-  margin: 20px 35%;
+  margin: 30px 35%;
   padding: 5px 0;
 }
 
@@ -426,10 +436,10 @@ main h1 {
 .carousel-inner {
   border-radius: 10px;
 }
-.carousel-inner .carousel-item {
-  width: fit-content;
-  margin: auto;
-  float: none;
+.carousel-inner .inicio-carrusel {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
@@ -484,18 +494,26 @@ footer section .boletin-footer {
 footer section .boletin-footer .boton-boletin {
   font-size: 18px;
   margin-right: 12px;
-  background-color: #8a7969;
+  background-image: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
+  color: #fff;
 }
 footer section h2 {
   margin-top: 12px;
+  text-shadow: 0px 0px 27px #4600a5;
 }
 footer section h3 {
   font-size: 20px;
   margin-left: 12px;
+  color: #040404;
 }
 footer section input {
   padding-right: 0;
   font-size: 18px;
+  border-color: #040404;
+}
+footer section :focus {
+  border-color: #fff;
+  box-shadow: 0px 0px 20px 5px #450463;
 }
 
 footer ul li {
@@ -540,6 +558,7 @@ footer input {
   padding-top: 25px;
   padding-left: 20px;
   padding-bottom: 0;
+  color: #fff;
 }
 
 .img-footer {
@@ -1292,9 +1311,9 @@ main section article div ul {
 .titulo-seccion {
   font-size: 38px;
   background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
-  -webkit-box-shadow: 0px 0px 53px 0px rgb(70, 0, 165);
-  -moz-box-shadow: 0px 0px 53px 0px rgb(70, 0, 165);
-  box-shadow: 0px 0px 53px 0px rgb(70, 0, 165);
+  -webkit-box-shadow: 0px 0px 53px 0px #4600a5;
+  -moz-box-shadow: 0px 0px 53px 0px #4600a5;
+  box-shadow: 0px 0px 53px 0px #4600a5;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;

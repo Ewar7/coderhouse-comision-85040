@@ -86,11 +86,14 @@ main {
     margin-bottom: 20px;
     }
 }
+.primer-titulo{
+    margin-top: 60px !important;
+}
 .titulo-seccion{
     font-size: 38px;
     background-color: v.$gradient-1;
     border-radius: 8px;
-    margin: 20px 35%;
+    margin: 30px 35%;
     padding: 5px 0;
 }
 .carousel, .slide {
@@ -103,10 +106,10 @@ main {
 }
 .carousel-inner{
     border-radius: 10px;
-    .carousel-item{
-        width: fit-content;
-        margin: auto;
-        float: none;
+    .inicio-carrusel{
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
     }
 }
 
