@@ -423,6 +423,10 @@ main h1 {
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
+  main .carousel-inner .inicio-carrusel {
+    width: 100%;
+    height: auto;
+  }
   main .carta {
     width: auto !important;
   }
@@ -440,6 +444,10 @@ main h1 {
   }
 }
 @media (min-width: 431px) and (max-width: 800px) {
+  main .carousel-inner .inicio-carrusel {
+    width: 100%;
+    height: auto;
+  }
   main input {
     border-radius: 0 0 10px 10px !important;
   }

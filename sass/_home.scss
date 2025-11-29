@@ -90,25 +90,37 @@ main {
 
 @media (min-width: 320px) and (max-width: 430px){
     main{
+        .carousel-inner{
+            .inicio-carrusel{
+                width: 100%;
+                height: auto;
+            }
+        }
         .carta{
-    width: auto !important;
-        a h2{
-        text-transform: capitalize;
+            width: auto !important;
+            a h2{
+            text-transform: capitalize;
+            }
+        }
+        h1{
+            font-size: 25px !important;
+        }
+        .titulo-seccion {
+            font-size: 18px !important;
+        }
+        input{
+            border-radius: 0 0 10px 10px !important;
         }
     }
-    h1{
-        font-size: 25px !important;
-    }
-    .titulo-seccion {
-        font-size: 18px !important;
-    }
-    input{
-        border-radius: 0 0 10px 10px !important;
-    }
-}
 }
 @media (min-width: 431px) and (max-width: 800px){
     main{
+        .carousel-inner{
+            .inicio-carrusel{
+                width: 100%;
+                height: auto;
+            }
+        }
         input{
             border-radius: 0 0 10px 10px !important;
         }
