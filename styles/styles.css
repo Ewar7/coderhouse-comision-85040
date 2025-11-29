@@ -15,7 +15,7 @@
 header {
   font-family: "Roboto Flex", sans-serif;
   display: flex;
-  background-color: #22bc8e;
+  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
   color: #fff;
 }
 header .header1 {
@@ -53,7 +53,7 @@ header .header2 .contenedor-redes ul {
 }
 
 .navbar-nav .dropdown-menu {
-  background-color: #22bc8e;
+  background-color: #450463;
   border: 0;
 }
 
@@ -78,7 +78,7 @@ header .header2 .contenedor-redes ul {
 }
 
 .navbar {
-  background-color: #22bc8e !important;
+  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
   padding: 0;
   margin: 0;
 }
@@ -118,19 +118,19 @@ header .header2 .contenedor-redes ul {
   margin: 0;
 }
 .d-flex .btn {
-  color: #dbdbdb;
-  background-color: #22bc8e;
-  border: 2px solid #dbdbdb;
+  color: #fff;
+  background-color: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
+  border: 2px solid #fff;
   font-weight: bold;
 }
 .d-flex .btn:hover {
-  color: #202020;
+  color: #fff;
   background-color: #8a7969;
   transform: scale(1.1);
-  border-color: #dbdbdb;
+  border-color: #fff;
 }
 .d-flex .form-control:focus {
-  border-color: #dbdbdb;
+  border-color: #040404;
   box-shadow: 0 0 0 0.25rem rgba(138, 121, 105, 0.25);
 }
 
@@ -176,7 +176,7 @@ header ul li a {
 }
 
 .link-menu:hover {
-  color: #22bc8e;
+  color: #450463;
   background-color: #e7e7e7;
   border-radius: 8px;
   padding: 8px;
@@ -186,7 +186,7 @@ header ul li a {
 @media (min-width: 320px) and (max-width: 430px) {
   header {
     display: flex;
-    background-color: #22bc8e;
+    background-color: #450463;
     position: relative;
   }
   header .form-control {
@@ -221,7 +221,7 @@ header ul li a {
   }
   .navbar-nav {
     margin-top: 50px;
-    background-color: #22bc8e;
+    background-color: #450463;
     height: auto;
     border-radius: 8px;
     position: absolute;
@@ -249,7 +249,7 @@ header ul li a {
 @media (min-width: 431px) and (max-width: 800px) {
   header {
     display: flex;
-    background-color: #22bc8e;
+    background-color: #450463;
     position: relative;
   }
   header .form-control {
@@ -284,7 +284,7 @@ header ul li a {
   }
   .navbar-nav {
     margin-top: 50px;
-    background-color: #22bc8e;
+    background-color: #450463;
     height: auto;
     border-radius: 8px;
     position: absolute;
@@ -324,6 +324,7 @@ header ul li a {
   border-radius: 10px;
   margin: 0 10px;
   box-shadow: 5px 5px 10px 2px #666666;
+  transition: ease-in-out 0.3s;
 }
 .contenedor-destacados .carta img {
   width: 85%;
@@ -333,7 +334,7 @@ header ul li a {
   transition: ease-in-out 0.3s;
 }
 .contenedor-destacados .carta img:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 .contenedor-destacados .carta a {
   color: #fff;
@@ -347,22 +348,51 @@ header ul li a {
   text-transform: uppercase;
   margin-top: 0;
 }
-.contenedor-destacados .carta input {
+.contenedor-destacados .carta a input {
   text-decoration: none;
   padding: 7.8px 25px;
   margin-bottom: 20px;
   font-size: 18px;
-  background-color: #22bc8e;
+  background-image: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
   color: #fff;
   border: 0;
   border-radius: 10px;
 }
-.contenedor-destacados .carta input:hover {
+.contenedor-destacados .carta a input:hover {
+  transform: scale(1.1);
+}
+.contenedor-destacados .carta:hover {
   transform: scale(1.1);
 }
 
+.contenedor-tarjetas {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.contenedor-tarjetas .tarjetas-slide {
+  display: flex;
+  gap: 80px;
+  animation: scroll 12s linear infinite;
+}
+.contenedor-tarjetas .tarjetas-slide img {
+  height: 60px;
+  width: auto;
+  transition: 0.3s ease-in-out;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 main {
-  background-color: #dbdbdb;
+  background-color: #040404;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -377,7 +407,7 @@ main h1 {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #8a7969;
+  background-color: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -395,6 +425,11 @@ main h1 {
 
 .carousel-inner {
   border-radius: 10px;
+}
+.carousel-inner .carousel-item {
+  width: fit-content;
+  margin: auto;
+  float: none;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
@@ -433,7 +468,7 @@ main h1 {
 }
 footer {
   text-align: center;
-  background-color: #22bc8e;
+  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
   color: #fff;
 }
 footer section .boletin-footer {
@@ -482,7 +517,7 @@ footer input {
   padding: 7.8px 25px;
   font-size: 18px;
   position: relative;
-  background-color: #22bc8e;
+  background-color: #450463;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -599,7 +634,7 @@ footer input {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #22bc8e;
+  background-color: #450463;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -645,12 +680,12 @@ main h1 {
   font-size: 50px;
   color: #fff;
   text-transform: uppercase;
-  text-shadow: 2px 2px 5px #666666;
+  text-shadow: 0px 0px 27px #4600a5;
   margin-bottom: 20px;
 }
 
 main {
-  background-color: #dbdbdb;
+  background-color: #040404;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -658,7 +693,7 @@ main {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #22bc8e;
+  background-color: #450463;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -674,7 +709,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  background-color: #22bc8e;
+  background-color: #450463;
   border-radius: 15px;
   padding: 10px;
   color: #fff;
@@ -822,7 +857,7 @@ main {
   color: #202020;
 }
 .pagina-producto .p1 h2 {
-  color: #22bc8e;
+  color: #450463;
   margin-right: 50px;
 }
 .pagina-producto .p2 {
@@ -910,7 +945,8 @@ main {
 }
 .titulo-ofertas {
   font-size: 38px;
-  background-color: #8a7969;
+  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
+  box-shadow: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
   border-radius: 8px;
   margin: 0 22%;
   padding: 5px 0;
@@ -993,7 +1029,7 @@ main {
   padding: 7.8px 25px;
   margin-bottom: 40px;
   font-size: 18px;
-  background-color: #22bc8e;
+  background-color: #450463;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -1030,7 +1066,6 @@ main {
   }
 }
 form {
-  background-color: #22bc8e;
   border-radius: 10px;
   padding: 25px;
   margin-top: 20px;
@@ -1071,7 +1106,7 @@ form textarea {
   padding: 7.8px 25px;
   font-size: 18px;
   background-color: #fff;
-  color: #22bc8e;
+  color: #450463;
   border: 0;
   border-radius: 10px;
   margin-top: 15px;
@@ -1205,7 +1240,7 @@ form textarea {
   }
 }
 .lista-preguntas {
-  background-color: #22bc8e;
+  background-color: #450463;
   display: flex;
   padding: 20px 35px 5px 0;
   border-radius: 10px;
@@ -1217,27 +1252,27 @@ form textarea {
 
 .accordion-item {
   border: 0;
-  background-color: #22bc8e;
+  background-color: #450463;
 }
 
 .accordion-body {
-  background-color: #22bc8e;
+  background-color: #450463;
   color: #fff;
 }
 
 .accordion-button {
-  background-color: #22bc8e;
+  background-color: #450463;
   color: #fff;
   border-radius: 5px;
 }
 
 .accordion-button:after {
-  background-color: #22bc8e;
+  background-color: #450463;
   color: antiquewhite;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #22bc8e;
+  background-color: #450463;
   color: #fff;
   font-size: 20px;
 }
@@ -1256,7 +1291,10 @@ main section article div ul {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #8a7969;
+  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
+  -webkit-box-shadow: 0px 0px 53px 0px rgb(70, 0, 165);
+  -moz-box-shadow: 0px 0px 53px 0px rgb(70, 0, 165);
+  box-shadow: 0px 0px 53px 0px rgb(70, 0, 165);
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;

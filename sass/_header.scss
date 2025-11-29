@@ -3,7 +3,7 @@
 header {
     font-family: v.$fuente;
     display: flex;
-    background-color: v.$background-primario;
+    background-image: v.$gradient-1;
     color: v.$color-primario;
     .header1 {
         width: 85%;
@@ -61,7 +61,7 @@ header {
     margin-right: 15px;
 }
 .navbar{
-    background-color: v.$background-primario !important;
+    background-image: v.$gradient-1;
     padding: 0;
     margin: 0;
 }
@@ -94,15 +94,15 @@ header {
     padding: 0;
     margin: 0;
     .btn{
-        color: v.$background-secundario;
-        background-color: v.$background-primario;
-        border: 2px solid v.$background-secundario;
+        color: v.$color-primario;
+        background-color: v.$gradient-1;
+        border: 2px solid v.$color-primario;
         font-weight: bold;
     }.btn:hover{
-        color: v.$color-secundario;
+        color: v.$color-primario;
         background-color: v.$background-terciario;
         transform: scale(1.1);
-        border-color: v.$background-secundario;
+        border-color: v.$color-primario;
     }
     .form-control:focus{
         border-color: v.$background-secundario;

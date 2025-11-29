@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 $fuente: "Roboto Flex", sans-serif;
-$background-primario: #22bc8e;
-$background-secundario: #dbdbdb;
+$background-primario: #450463;
+$background-secundario: #040404;
 $background-terciario: #8a7969;
 $color-primario: #fff;
 $color-secundario: #202020;
+$gradient-1: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
+$gradient-2: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
 
 *{
     font-family: $fuente;
