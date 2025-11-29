@@ -474,6 +474,12 @@ main h1 {
   }
   main .titulo-seccion {
     font-size: 18px !important;
+    margin: 0 80px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  main .primer-titulo {
+    margin-top: 20px;
   }
 }
 footer {
