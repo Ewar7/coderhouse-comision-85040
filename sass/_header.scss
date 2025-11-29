@@ -163,6 +163,9 @@ header ul li a {
     transform: scale(2);
 }
 @media (min-width: 320px) and (max-width: 430px){
+    .sticky-top{
+        position: inherit;
+    }
     header {
         display: flex;
         background-color: v.$background-primario;
@@ -232,6 +235,9 @@ header ul li a {
     }
 }
 @media (min-width: 431px) and (max-width: 800px){
+    .sticky-top{
+        position: inherit;
+    }
     header{
         display: flex;
         background-color: v.$background-primario;

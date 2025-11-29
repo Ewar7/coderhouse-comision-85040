@@ -196,6 +196,9 @@ header ul li a {
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
+  .sticky-top {
+    position: inherit;
+  }
   header {
     display: flex;
     background-color: #450463;
@@ -259,6 +262,9 @@ header ul li a {
   }
 }
 @media (min-width: 431px) and (max-width: 800px) {
+  .sticky-top {
+    position: inherit;
+  }
   header {
     display: flex;
     background-color: #450463;
@@ -392,7 +398,7 @@ main h1 {
 }
 
 .primer-titulo {
-  margin-top: 60px !important;
+  margin-top: 60px;
 }
 
 .titulo-seccion {
@@ -438,6 +444,12 @@ main h1 {
   }
   main .titulo-seccion {
     font-size: 18px !important;
+    margin: 0 50px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  main .primer-titulo {
+    margin-top: 20px;
   }
   main input {
     border-radius: 0 0 10px 10px !important;

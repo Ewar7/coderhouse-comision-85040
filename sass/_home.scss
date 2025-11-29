@@ -62,7 +62,7 @@ main {
     }
 }
 .primer-titulo{
-    margin-top: 60px !important;
+    margin-top: 60px;
 }
 .titulo-seccion{
     font-size: 38px;
@@ -107,6 +107,12 @@ main {
         }
         .titulo-seccion {
             font-size: 18px !important;
+            margin: 0 50px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .primer-titulo{
+            margin-top: 20px;
         }
         input{
             border-radius: 0 0 10px 10px !important;
