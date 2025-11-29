@@ -25,6 +25,9 @@
             padding-bottom: 30px;
             padding-top: 30px;
             border-bottom: 2px solid v.$color-secundario;
+            input{
+                background-image: v.$gradient-2;
+            }
         }
         h1{
             color: v.$color-secundario;

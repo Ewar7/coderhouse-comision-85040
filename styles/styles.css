@@ -47,14 +47,18 @@ header .header2 .contenedor-redes ul {
 
 .dropdown-item:hover {
   font-size: 30px;
-  color: #fff;
-  background-color: #8a7969;
   border-radius: 5px;
+  box-shadow: 0px 0px 10px 10px #450463;
+  color: #fff;
+  background: #690587;
+  background: linear-gradient(0deg, #690587 0%, #48065c 50%, #690587 100%);
+  transform: scale(1.1);
 }
 
 .navbar-nav .dropdown-menu {
   background-color: #450463;
   border: 0;
+  padding-left: 10px;
 }
 
 .container-fluid {
@@ -66,6 +70,7 @@ header .header2 .contenedor-redes ul {
   height: 130px;
   width: auto;
   padding-top: 15px;
+  transition: ease-in-out 0.3s;
 }
 .container-fluid .logo-header:hover {
   transform: scale(1.2);
@@ -150,10 +155,11 @@ header .header2 .contenedor-redes ul {
 .redes {
   height: auto;
   width: 29px;
+  transition: ease-in-out 0.3s;
 }
 
 .redes:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 input {
@@ -342,17 +348,17 @@ header ul li a {
 .contenedor-destacados .carta img:hover {
   transform: scale(1);
 }
-.contenedor-destacados .carta a {
-  color: #fff;
-  text-decoration: none;
-}
-.contenedor-destacados .carta a h2 {
+.contenedor-destacados .carta h2 {
   color: #202020;
   padding: 15px 0 15px 0;
   text-align: center;
   font-size: 15px;
   text-transform: uppercase;
   margin-top: 0;
+}
+.contenedor-destacados .carta a {
+  color: #fff;
+  text-decoration: none;
 }
 .contenedor-destacados .carta a input {
   text-decoration: none;
@@ -371,32 +377,6 @@ header ul li a {
   transform: scale(1.1);
 }
 
-.contenedor-tarjetas {
-  width: 100%;
-  overflow: hidden;
-  padding: 20px 0;
-  display: flex;
-  align-items: center;
-}
-.contenedor-tarjetas .tarjetas-slide {
-  display: flex;
-  gap: 80px;
-  animation: scroll 12s linear infinite;
-}
-.contenedor-tarjetas .tarjetas-slide img {
-  height: 60px;
-  width: auto;
-  transition: 0.3s ease-in-out;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
 main {
   background-color: #040404;
   color: #fff;
@@ -545,6 +525,33 @@ footer input {
   transform: scale(1.1);
 }
 
+.contenedor-tarjetas {
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+.contenedor-tarjetas .tarjetas-slide {
+  display: flex;
+  gap: 80px;
+  margin: 0 40px;
+  animation: scroll 12s linear infinite;
+}
+.contenedor-tarjetas .tarjetas-slide img {
+  height: 60px;
+  width: auto;
+  transition: 0.3s ease-in-out;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 .redes-footer {
   text-align: right;
   padding-right: 30px;
@@ -872,6 +879,9 @@ main {
   padding-top: 30px;
   border-bottom: 2px solid #202020;
 }
+.pagina-producto .p1 .precio-articulo input {
+  background-image: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
+}
 .pagina-producto .p1 h1 {
   color: #202020;
 }
@@ -1048,7 +1058,7 @@ main {
   padding: 7.8px 25px;
   margin-bottom: 40px;
   font-size: 18px;
-  background-color: #450463;
+  background-image: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -1112,6 +1122,12 @@ form textarea {
   margin-left: 6%;
   margin-right: 6%;
 }
+.formulario input:focus {
+  box-shadow: 0px 0px 10px 10px #60048b;
+}
+.formulario textarea:focus {
+  box-shadow: 0px 0px 10px 10px #60048b;
+}
 .formulario .a {
   grid-area: a;
   padding: 10px;
@@ -1119,20 +1135,31 @@ form textarea {
 .formulario .b {
   grid-area: b;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
 }
 .formulario .b .boton-enviar {
+  width: 150px;
   text-decoration: none;
-  padding: 7.8px 25px;
+  text-align: center;
   font-size: 18px;
   background-color: #fff;
   color: #450463;
   border: 0;
   border-radius: 10px;
-  margin-top: 15px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 18px;
 }
 .formulario .b .boton-enviar:hover {
-  background-color: #8a7969;
+  box-shadow: 0px 0px 10px 10px #450463;
   color: #fff;
+  background: #690587;
+  background: linear-gradient(0deg, #690587 0%, #48065c 50%, #690587 100%);
+  transform: scale(1.1);
+  border: none;
 }
 .formulario .c {
   grid-area: c;

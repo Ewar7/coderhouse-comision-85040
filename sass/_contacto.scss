@@ -31,6 +31,12 @@ form {
     ;
     margin-left: 6%;
     margin-right: 6%;
+    input:focus{
+        box-shadow: 0px 0px 10px 10px #60048b;
+    }
+    textarea:focus{
+        box-shadow: 0px 0px 10px 10px #60048b;
+    }
     .a{
         grid-area: a;
         padding: 10px;
@@ -38,20 +44,31 @@ form {
     .b{
         grid-area: b;
         padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
         .boton-enviar{
+        width: 150px;
         text-decoration: none;
-        padding: 7.8px 25px;
+        text-align: center;
         font-size: 18px;
         background-color: v.$color-primario;
         color: v.$background-primario;
         border: 0;
         border-radius: 10px;
-        margin-top: 15px;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 18px;
         }
         .boton-enviar:hover{
-            background-color: v.$background-terciario;
-            color: v.$color-primario;
-            }
+        box-shadow: 0px 0px 10px 10px #450463;
+        color: v.$color-primario;
+        background: #690587;
+        background: linear-gradient(0deg, #690587 0%, #48065c 50%, #690587 100%);
+        transform: scale(1.1);
+        border: none;
+        }
     }
     .c{
         grid-area: c;
