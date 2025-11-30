@@ -104,8 +104,9 @@ form {
 @media (min-width: 320px) and (max-width: 430px){
     .formulario{
         display: grid;
-        margin: auto;
-        padding: 2px 2px 40px 2px;
+        margin-bottom: 90px;
+        margin-top: 90px;
+        padding: 2px 2px 20px 2px;
         grid-template-areas:
         "a a c c"
         "d d e e"
@@ -156,8 +157,9 @@ form {
 @media (min-width: 431px) and (max-width: 800px){
     .formulario{
         display: grid;
-        margin: auto;
-        padding: 2px 2px 40px 2px;
+        margin-bottom: 90px;
+        margin-top: 90px;
+        padding: 2px 2px 20px 2px;
         grid-template-areas:
         "a a c c"
         "d d e e"
