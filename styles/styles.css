@@ -75,6 +75,13 @@ header .header2 .contenedor-redes ul {
 .container-fluid .logo-header:hover {
   transform: scale(1.2);
 }
+.container-fluid .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.container-fluid .navbar-toggler {
+  color: #fff;
+  border: #fff;
+}
 
 .collapse {
   font-size: 20px;
@@ -582,7 +589,7 @@ footer section input {
 }
 footer section :focus {
   border-color: #fff;
-  box-shadow: 0px 0px 20px 5px #0214DB;
+  box-shadow: 0px 0px 10px 5px #0214DB;
 }
 
 footer ul li {
@@ -608,6 +615,7 @@ footer input {
   color: #fff;
   border: 0;
   border-radius: 10px;
+  transition: ease-in-out 0.3s;
 }
 
 .boton-boletin:hover {
@@ -750,6 +758,42 @@ footer input {
   justify-content: center;
   row-gap: 20px;
 }
+.item-tienda .carta-tienda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-tienda .carta-tienda h2 {
+  color: #202020;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px 5px 15px 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+  height: 40px;
+}
+.item-tienda .carta-tienda input {
+  text-decoration: none;
+  padding: 7.8px 30px;
+  margin: 10px;
+  font-size: 18px;
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  transition: ease-in-out 0.3s;
+}
+.item-tienda .carta-tienda input:hover {
+  transform: scale(1.1);
+}
+.item-tienda .carta-tienda:hover {
+  box-shadow: 0 0 10px 10px #fff;
+}
 
 .titulo-seccion {
   font-size: 38px;
@@ -757,10 +801,6 @@ footer input {
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
-}
-
-.titulo-seccion {
-  font-size: 15px;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
@@ -793,10 +833,10 @@ footer input {
     flex-wrap: wrap;
   }
   .item-tienda .carta-tienda {
-    height: 270px;
-    width: 30%;
-    height: fit-content;
-    align-items: end;
+    height: 300px;
+    width: 40%;
+    height: auto;
+    align-items: center;
   }
   .item-tienda .carta-tienda input {
     border-radius: 10px 10px !important;
@@ -809,14 +849,16 @@ main h1 {
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0px 0px 27px #0214DB;
-  margin-bottom: 20px;
-  padding-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  box-shadow: 10px 0 20px #00064D;
 }
 
 main {
   background-color: #040404;
   color: #fff;
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .titulo-seccion {
@@ -1141,9 +1183,6 @@ main {
   border-bottom: solid 2px #202020;
   transition: ease-in-out 0.3s;
 }
-.carta img:hover {
-  transform: scale(1.1);
-}
 .carta a {
   color: #202020;
   text-decoration: none;
@@ -1213,7 +1252,7 @@ main {
 form {
   border-radius: 10px;
   padding: 25px;
-  margin-top: 20px;
+  margin-top: 70px;
   margin-bottom: 35px;
 }
 form input {
@@ -1237,6 +1276,7 @@ form textarea {
   grid-template-areas: "a a b b b" "c c b b b" "d d b b b" "e e b b b" "f f b b b";
   margin-left: 6%;
   margin-right: 6%;
+  box-shadow: 0 0 50px 5px #0214DB;
 }
 .formulario input:focus {
   box-shadow: 0px 0px 10px 10px #0214DB;
@@ -1462,7 +1502,7 @@ main section article div ul {
   background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   box-shadow: 0px 0px 53px 0px #0214DB;
   border-radius: 8px;
-  margin: 20px 35%;
+  margin: 35px 35% 20px 35%;
   padding: 5px 0;
 }
 

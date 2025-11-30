@@ -9,7 +9,42 @@
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 20px;
-}
+    .carta-tienda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+        color: v.$color-secundario;
+        text-align: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: auto;
+        margin-top: 5px;
+        padding: 5px 5px 15px 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 90%;
+        height: 40px;
+        }
+        input{
+            text-decoration: none;
+            padding: 7.8px 30px;
+            margin: 10px;
+            font-size: 18px;
+            background-image: v.$gradient-2;
+            color: v.$color-primario;
+            border: 0;
+            border-radius: 10px;
+            transition: ease-in-out .3s;
+        }input:hover{
+            transform: scale(1.1);
+            }
+        }
+        .carta-tienda:hover{
+            box-shadow: 0 0 10px 10px v.$color-primario;
+        }
+    }
 .titulo-seccion{
     font-size: 38px;
     background-color: v.$background-primario;
@@ -17,9 +52,6 @@
     margin: 20px 35%;
     padding: 5px 0;
 }
-.titulo-seccion {
-        font-size: 15px;
-    }
 
 @media (min-width: 320px) and (max-width: 430px){
     .item-tienda{
@@ -50,10 +82,10 @@
         display: flex;
         flex-wrap: wrap;
         .carta-tienda{
-            height: 270px;
-            width: 30%;
-            height: fit-content;
-            align-items: end;
+            height: 300px;
+            width: 40%;
+            height: auto;
+            align-items: center;
             input{
                 border-radius: 10px 10px !important;
                 padding: 10px 15px;

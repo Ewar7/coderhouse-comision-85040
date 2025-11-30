@@ -3,7 +3,7 @@
 form {
     border-radius: 10px;
     padding: 25px;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 35px;
     input{
     display: grid;
@@ -31,6 +31,7 @@ form {
     ;
     margin-left: 6%;
     margin-right: 6%;
+    box-shadow: 0 0 50px 5px v.$color-terciario;
     input:focus{
         box-shadow: 0px 0px 10px 10px v.$color-terciario;
     }

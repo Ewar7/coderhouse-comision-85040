@@ -57,8 +57,6 @@
         object-fit: contain;
         border-bottom: solid 2px v.$color-secundario;
         transition: ease-in-out 0.3s;
-    }img:hover{
-        transform: scale(1.1);
     }
     a{
         color: v.$color-secundario;
