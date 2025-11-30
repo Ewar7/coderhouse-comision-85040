@@ -36,10 +36,10 @@ header {
 .dropdown-item:hover {
     font-size: 30px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 10px #450463;
+    box-shadow: 0px 0px 10px 10px v.$color-terciario;
     color: v.$color-primario;
-    background: #690587;
-    background: linear-gradient(0deg, #690587 0%, #48065c 50%, #690587 100%);
+    background: v.$background-primario;
+    background: linear-gradient(0deg, v.$background-primario 0%, v.$color-terciario 50%, v.$background-primario 100%);
     transform: scale(1.1);
 }
 .navbar-nav .dropdown-menu {
@@ -86,9 +86,9 @@ header {
     border-radius: 6px;
 }
 .nav-link:hover{
-    box-shadow: 0px 0px 30px 20px #450463;
-    background: #690587;
-    background: linear-gradient(0deg, rgba(105, 5, 135, 1) 0%, rgba(72, 6, 92, 1) 50%, rgba(105, 5, 135, 1) 100%);
+    box-shadow: 0px 0px 30px 20px v.$color-terciario;
+    background: v.$background-primario;
+    background: linear-gradient(0deg, v.$background-primario 0%, v.$color-terciario 50%, v.$background-primario 100%);
     color: v.$color-primario;
 }
 .nav-link:focus{
@@ -108,16 +108,16 @@ header {
         border: 2px solid v.$color-primario;
         font-weight: bold;
     }.btn:hover{
-        box-shadow: 0px 0px 30px 20px #450463;
+        box-shadow: 0px 0px 30px 20px v.$color-terciario;
         color: v.$color-primario;
-        background: #690587;
-        background: linear-gradient(0deg, rgba(105, 5, 135, 1) 0%, rgba(72, 6, 92, 1) 50%, rgba(105, 5, 135, 1) 100%);
+        background: v.$background-primario;
+        background: linear-gradient(0deg, v.$background-primario 0%, v.$color-terciario 50%, v.$background-primario 100%);
         transform: scale(1.1);
         border: none;
     }
     .form-control:focus{
         border-color: v.$background-secundario;
-        box-shadow: 0px 0px 20px 20px #450463;
+        box-shadow: 0px 0px 20px 20px v.$color-terciario;
     }
 }
 .contenedor-header{

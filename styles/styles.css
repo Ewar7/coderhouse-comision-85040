@@ -15,7 +15,7 @@
 header {
   font-family: "Roboto Flex", sans-serif;
   display: flex;
-  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   color: #fff;
 }
 header .header1 {
@@ -48,15 +48,15 @@ header .header2 .contenedor-redes ul {
 .dropdown-item:hover {
   font-size: 30px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 10px #450463;
+  box-shadow: 0px 0px 10px 10px #0214DB;
   color: #fff;
-  background: #690587;
-  background: linear-gradient(0deg, #690587 0%, #48065c 50%, #690587 100%);
+  background: #00064D;
+  background: linear-gradient(0deg, #00064D 0%, #0214DB 50%, #00064D 100%);
   transform: scale(1.1);
 }
 
 .navbar-nav .dropdown-menu {
-  background-color: #450463;
+  background-color: #00064D;
   border: 0;
   padding-left: 10px;
 }
@@ -83,7 +83,7 @@ header .header2 .contenedor-redes ul {
 }
 
 .navbar {
-  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   padding: 0;
   margin: 0;
 }
@@ -106,9 +106,9 @@ header .header2 .contenedor-redes ul {
 }
 
 .nav-link:hover {
-  box-shadow: 0px 0px 30px 20px #450463;
-  background: #690587;
-  background: linear-gradient(0deg, rgb(105, 5, 135) 0%, rgb(72, 6, 92) 50%, rgb(105, 5, 135) 100%);
+  box-shadow: 0px 0px 30px 20px #0214DB;
+  background: #00064D;
+  background: linear-gradient(0deg, #00064D 0%, #0214DB 50%, #00064D 100%);
   color: #fff;
 }
 
@@ -128,21 +128,21 @@ header .header2 .contenedor-redes ul {
 }
 .d-flex .btn {
   color: #fff;
-  background-color: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
+  background-color: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   border: 2px solid #fff;
   font-weight: bold;
 }
 .d-flex .btn:hover {
-  box-shadow: 0px 0px 30px 20px #450463;
+  box-shadow: 0px 0px 30px 20px #0214DB;
   color: #fff;
-  background: #690587;
-  background: linear-gradient(0deg, rgb(105, 5, 135) 0%, rgb(72, 6, 92) 50%, rgb(105, 5, 135) 100%);
+  background: #00064D;
+  background: linear-gradient(0deg, #00064D 0%, #0214DB 50%, #00064D 100%);
   transform: scale(1.1);
   border: none;
 }
 .d-flex .form-control:focus {
   border-color: #040404;
-  box-shadow: 0px 0px 20px 20px #450463;
+  box-shadow: 0px 0px 20px 20px #0214DB;
 }
 
 .contenedor-header {
@@ -188,7 +188,7 @@ header ul li a {
 }
 
 .link-menu:hover {
-  color: #450463;
+  color: #00064D;
   background-color: #e7e7e7;
   border-radius: 8px;
   padding: 8px;
@@ -201,7 +201,7 @@ header ul li a {
   }
   header {
     display: flex;
-    background-color: #450463;
+    background-color: #00064D;
     position: relative;
   }
   header .form-control {
@@ -236,7 +236,7 @@ header ul li a {
   }
   .navbar-nav {
     margin-top: 50px;
-    background-color: #450463;
+    background-color: #00064D;
     height: auto;
     border-radius: 8px;
     position: absolute;
@@ -267,7 +267,7 @@ header ul li a {
   }
   header {
     display: flex;
-    background-color: #450463;
+    background-color: #00064D;
     position: relative;
   }
   header .form-control {
@@ -302,7 +302,7 @@ header ul li a {
   }
   .navbar-nav {
     margin-top: 50px;
-    background-color: #450463;
+    background-color: #00064D;
     height: auto;
     border-radius: 8px;
     position: absolute;
@@ -380,7 +380,7 @@ header ul li a {
   padding: 7.8px 50px;
   margin-bottom: 0;
   font-size: 18px;
-  background-image: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   color: #fff;
   border: 0;
   border-radius: 10px 10px 0 0;
@@ -412,7 +412,7 @@ main h1 {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
+  background-color: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   border-radius: 8px;
   margin: 30px 35%;
   padding: 5px 0;
@@ -547,7 +547,7 @@ main h1 {
 }
 footer {
   text-align: center;
-  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   color: #fff;
 }
 footer section .boletin-footer {
@@ -563,12 +563,12 @@ footer section .boletin-footer {
 footer section .boletin-footer .boton-boletin {
   font-size: 18px;
   margin-right: 12px;
-  background-image: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   color: #fff;
 }
 footer section h2 {
   margin-top: 12px;
-  text-shadow: 0px 0px 27px #4600a5;
+  text-shadow: 0px 0px 27px #00064D;
 }
 footer section h3 {
   font-size: 20px;
@@ -582,7 +582,7 @@ footer section input {
 }
 footer section :focus {
   border-color: #fff;
-  box-shadow: 0px 0px 20px 5px #450463;
+  box-shadow: 0px 0px 20px 5px #0214DB;
 }
 
 footer ul li {
@@ -604,7 +604,7 @@ footer input {
   padding: 7.8px 25px;
   font-size: 18px;
   position: relative;
-  background-color: #450463;
+  background-color: #00064D;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -753,7 +753,7 @@ footer input {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #450463;
+  background-color: #00064D;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -808,8 +808,9 @@ main h1 {
   font-size: 50px;
   color: #fff;
   text-transform: uppercase;
-  text-shadow: 0px 0px 27px #4600a5;
+  text-shadow: 0px 0px 27px #0214DB;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 main {
@@ -820,7 +821,7 @@ main {
 
 .titulo-seccion {
   font-size: 38px;
-  background-color: #450463;
+  background-color: #00064D;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
@@ -836,7 +837,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  background-color: #450463;
+  background-color: #00064D;
   border-radius: 15px;
   padding: 10px;
   color: #fff;
@@ -981,13 +982,13 @@ main {
   border-bottom: 2px solid #202020;
 }
 .pagina-producto .p1 .precio-articulo input {
-  background-image: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
 }
 .pagina-producto .p1 h1 {
-  color: #202020;
+  color: #040404;
 }
 .pagina-producto .p1 h2 {
-  color: #450463;
+  color: #040404;
   margin-right: 50px;
 }
 .pagina-producto .p2 {
@@ -1075,8 +1076,8 @@ main {
 }
 .titulo-ofertas {
   font-size: 38px;
-  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
-  box-shadow: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
+  box-shadow: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   border-radius: 8px;
   margin: 0 22%;
   padding: 5px 0;
@@ -1159,7 +1160,7 @@ main {
   padding: 7.8px 25px;
   margin-bottom: 40px;
   font-size: 18px;
-  background-image: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -1238,10 +1239,10 @@ form textarea {
   margin-right: 6%;
 }
 .formulario input:focus {
-  box-shadow: 0px 0px 10px 10px #60048b;
+  box-shadow: 0px 0px 10px 10px #0214DB;
 }
 .formulario textarea:focus {
-  box-shadow: 0px 0px 10px 10px #60048b;
+  box-shadow: 0px 0px 10px 10px #0214DB;
 }
 .formulario .a {
   grid-area: a;
@@ -1261,7 +1262,7 @@ form textarea {
   text-align: center;
   font-size: 18px;
   background-color: #fff;
-  color: #450463;
+  color: #00064D;
   border: 0;
   border-radius: 10px;
   padding-right: 0;
@@ -1269,10 +1270,10 @@ form textarea {
   margin-top: 18px;
 }
 .formulario .b .boton-enviar:hover {
-  box-shadow: 0px 0px 10px 10px #450463;
+  box-shadow: 0px 0px 10px 10px #0214DB;
   color: #fff;
-  background: #690587;
-  background: linear-gradient(0deg, #690587 0%, #48065c 50%, #690587 100%);
+  background: #00064D;
+  background: linear-gradient(0deg, #00064D 0%, #0214DB 50%, #00064D 100%);
   transform: scale(1.1);
   border: none;
 }
@@ -1407,7 +1408,7 @@ main article {
 }
 
 .lista-preguntas {
-  background-color: #450463;
+  background-color: #00064D;
   display: flex;
   padding: 20px 35px 5px 0;
   border-radius: 10px;
@@ -1419,27 +1420,27 @@ main article {
 
 .accordion-item {
   border: 0;
-  background-color: #450463;
+  background-color: #00064D;
 }
 
 .accordion-body {
-  background-color: #450463;
+  background-color: #00064D;
   color: #fff;
 }
 
 .accordion-button {
-  background-color: #450463;
+  background-color: #00064D;
   color: #fff;
   border-radius: 5px;
 }
 
 .accordion-button:after {
-  background-color: #450463;
+  background-color: #00064D;
   color: antiquewhite;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #450463;
+  background-color: #00064D;
   color: #fff;
   font-size: 20px;
 }
@@ -1458,10 +1459,8 @@ main section article div ul {
 
 .titulo-seccion {
   font-size: 38px;
-  background-image: linear-gradient(to bottom, #41045c, #390751, #310947, #2a0a3c, #230a32, #21082a, #1f0522, #1c021b, #1a0114, #15000c, #0d0005, #000000);
-  -webkit-box-shadow: 0px 0px 53px 0px #4600a5;
-  -moz-box-shadow: 0px 0px 53px 0px #4600a5;
-  box-shadow: 0px 0px 53px 0px #4600a5;
+  background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
+  box-shadow: 0px 0px 53px 0px #0214DB;
   border-radius: 8px;
   margin: 20px 35%;
   padding: 5px 0;
