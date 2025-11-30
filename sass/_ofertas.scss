@@ -5,7 +5,7 @@
     background-image: v.$gradient-1;
     box-shadow: v.$gradient-2;
     border-radius: 8px;
-    margin: 0 22%;
+    margin: 0 35%;
     padding: 5px 0;
 }
 .carousel, .slide {
@@ -75,7 +75,8 @@
             'wght' 400,
             'GRAD' 0,
             'opsz' 48
-        }:hover{
+        }
+        .material-symbols-outlined:hover{
             transform: scale(1.4);
         }
     }
@@ -102,8 +103,6 @@
         object-fit: contain;
         border-bottom: solid 2px v.$color-secundario;
         transition: ease-in-out 0.3s;
-    }img:hover{
-        transform: scale(1.1);
     }
     a{
         color: v.$color-secundario;

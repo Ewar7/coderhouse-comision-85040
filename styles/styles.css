@@ -1029,6 +1029,7 @@ main {
 }
 .pagina-producto .p1 h1 {
   color: #040404;
+  box-shadow: unset;
 }
 .pagina-producto .p1 h2 {
   color: #040404;
@@ -1122,7 +1123,7 @@ main {
   background-image: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   box-shadow: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000b6e, #000b6e, #000b6e, #000b6e, #000e88, #0011a3, #0013bf, #0214db);
   border-radius: 8px;
-  margin: 0 22%;
+  margin: 0 35%;
   padding: 5px 0;
 }
 
@@ -1200,7 +1201,7 @@ main {
   font-size: 90px;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
-.oferta-destacada a :hover {
+.oferta-destacada a .material-symbols-outlined:hover {
   transform: scale(1.4);
 }
 .oferta-destacada p {
@@ -1226,9 +1227,6 @@ main {
   object-fit: contain;
   border-bottom: solid 2px #202020;
   transition: ease-in-out 0.3s;
-}
-.carta img:hover {
-  transform: scale(1.1);
 }
 .carta a {
   color: #202020;
