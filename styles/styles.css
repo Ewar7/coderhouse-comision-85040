@@ -1146,26 +1146,69 @@ main {
 }
 
 .next-ofertas {
-  justify-content: end;
-  width: unset;
+  justify-content: start;
+  width: 50px;
 }
 .next-ofertas .carousel-control-next-icon {
-  background-color: #8a7969;
   border-radius: 8px;
 }
 
 .prev-ofertas {
-  justify-content: start;
-  width: unset;
+  justify-content: end;
+  width: 50px;
 }
 .prev-ofertas .carousel-control-prev-icon {
-  background-color: #8a7969;
   border-radius: 8px;
 }
 
 .producto-destacado {
   display: flex;
   margin: 20px 0;
+}
+
+.detacados {
+  display: flex;
+  margin: 20px 0;
+}
+
+.oferta-destacada {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  text-align: left;
+  margin: 30px auto;
+}
+.oferta-destacada img {
+  object-fit: contain;
+  width: 350px;
+  height: auto;
+  border-radius: 9px 0 0 9px;
+  margin-right: 10px;
+}
+.oferta-destacada h2 {
+  color: #202020;
+  text-align: left;
+  padding-top: 20px;
+}
+.oferta-destacada a {
+  margin: auto 20px;
+  color: #202020;
+}
+.oferta-destacada a .material-symbols-outlined {
+  transition: ease-in-out 0.4s;
+  font-size: 90px;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.oferta-destacada a :hover {
+  transform: scale(1.4);
+}
+.oferta-destacada p {
+  color: #202020;
+  padding: 20px 30px 20px 0;
+}
+.oferta-destacada div {
+  flex-direction: column;
 }
 
 .carta {
@@ -1183,6 +1226,9 @@ main {
   object-fit: contain;
   border-bottom: solid 2px #202020;
   transition: ease-in-out 0.3s;
+}
+.carta img:hover {
+  transform: scale(1.1);
 }
 .carta a {
   color: #202020;

@@ -24,24 +24,69 @@
     display: none;
 }
 .next-ofertas{
-    justify-content: end;
-    width: unset;
+    justify-content: start;
+    width: 50px;
     .carousel-control-next-icon{
-        background-color: v.$background-terciario;
         border-radius: 8px;
     }
 }
 .prev-ofertas{
-    justify-content: start;
-    width: unset;
+    justify-content: end;
+    width: 50px;
     .carousel-control-prev-icon{
-        background-color: v.$background-terciario;
         border-radius: 8px;
     }
 }
 .producto-destacado{
     display: flex;
     margin: 20px 0;
+}
+.detacados{
+    display: flex;
+    margin: 20px 0;
+}
+.oferta-destacada{
+    background-color: v.$color-primario;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    text-align: left;
+    margin: 30px auto;
+    img{
+        object-fit: contain;
+        width: 350px;
+        height: auto;
+        border-radius: 9px 0 0 9px;
+        margin-right: 10px;
+    }
+    h2{
+        color: v.$color-secundario;
+        text-align: left;
+        padding-top: 20px;
+    }
+    a{
+        margin: auto 20px;
+        color: v.$color-secundario;
+        .material-symbols-outlined {
+            transition: ease-in-out .4s;
+            font-size: 90px;
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+        }:hover{
+            transform: scale(1.4);
+        }
+    }
+    p{
+        color: v.$color-secundario;
+        padding: 20px 30px 20px 0;
+
+    }
+    div{
+        flex-direction: column;
+    }
 }
 .carta {
     position: relative;
@@ -57,6 +102,8 @@
         object-fit: contain;
         border-bottom: solid 2px v.$color-secundario;
         transition: ease-in-out 0.3s;
+    }img:hover{
+        transform: scale(1.1);
     }
     a{
         color: v.$color-secundario;
