@@ -52,7 +52,6 @@ main {
     background-color: v.$background-secundario;
     color: v.$color-primario;
     text-align: center;
-    padding: 20px;
     h1{
     font-size: 50px;
     color: v.$color-primario;
@@ -95,6 +94,15 @@ main {
                 width: 100%;
                 height: auto;
             }
+            .carousel-item{
+                .producto-destacado{
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    overflow: hidden;
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
         }
         .carta{
             width: auto !important;
@@ -115,7 +123,28 @@ main {
             margin-top: 20px;
         }
         input{
-            border-radius: 0 0 10px 10px !important;
+            border-radius: 10px !important;
+        }
+        .contenedor-destacados{
+            .carta{
+                width: auto !important;
+                height: 100%;
+                h2{
+                    padding: 5px 2px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    width: 150px;
+                }
+                a h2{
+                text-transform: capitalize;
+                }
+                a input{
+                    padding: 6px 20px;
+                    margin: 2px 0;
+                    border: 0;
+                }
+            }
         }
     }
 }
@@ -126,23 +155,48 @@ main {
                 width: 100%;
                 height: auto;
             }
+            .producto-destacado{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                overflow: hidden;
+                width: 100%;
+                justify-content: center;
+                align-items: end;
+            }
         }
         input{
-            border-radius: 0 0 10px 10px !important;
+            border-radius: 10px !important;
         }
-        .carta{
-            width: auto !important;
-            a h2{
-            text-transform: capitalize;
+        .contenedor-destacados{
+            .carta{
+                width: auto !important;
+                height: 100%;
+                h2{
+                    padding: 5px 2px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    width: 150px;
+                }
+                a h2{
+                text-transform: capitalize;
+                }
+                a input{
+                    padding: 6px 20px;
+                    margin: 2px 0;
+                    border: 0;
+                }
             }
         }
         h1{
             font-size: 25px !important;
         }
         .titulo-seccion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 18px !important;
-            margin: 0 80px;
-            margin-top: 30px;
+            margin: 30px 100px 10px 100px;
             text-align: center;
         }
         .primer-titulo{

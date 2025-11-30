@@ -387,7 +387,6 @@ main {
   background-color: #040404;
   color: #fff;
   text-align: center;
-  padding: 20px;
 }
 main h1 {
   font-size: 50px;
@@ -433,6 +432,13 @@ main h1 {
     width: 100%;
     height: auto;
   }
+  main .carousel-inner .carousel-item .producto-destacado {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+  }
   main .carta {
     width: auto !important;
   }
@@ -452,7 +458,26 @@ main h1 {
     margin-top: 20px;
   }
   main input {
-    border-radius: 0 0 10px 10px !important;
+    border-radius: 10px !important;
+  }
+  main .contenedor-destacados .carta {
+    width: auto !important;
+    height: 100%;
+  }
+  main .contenedor-destacados .carta h2 {
+    padding: 5px 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+  }
+  main .contenedor-destacados .carta a h2 {
+    text-transform: capitalize;
+  }
+  main .contenedor-destacados .carta a input {
+    padding: 6px 20px;
+    margin: 2px 0;
+    border: 0;
   }
 }
 @media (min-width: 431px) and (max-width: 800px) {
@@ -460,22 +485,45 @@ main h1 {
     width: 100%;
     height: auto;
   }
+  main .carousel-inner .producto-destacado {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+  }
   main input {
-    border-radius: 0 0 10px 10px !important;
+    border-radius: 10px !important;
   }
-  main .carta {
+  main .contenedor-destacados .carta {
     width: auto !important;
+    height: 100%;
   }
-  main .carta a h2 {
+  main .contenedor-destacados .carta h2 {
+    padding: 5px 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+  }
+  main .contenedor-destacados .carta a h2 {
     text-transform: capitalize;
+  }
+  main .contenedor-destacados .carta a input {
+    padding: 6px 20px;
+    margin: 2px 0;
+    border: 0;
   }
   main h1 {
     font-size: 25px !important;
   }
   main .titulo-seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px !important;
-    margin: 0 80px;
-    margin-top: 30px;
+    margin: 30px 100px 10px 100px;
     text-align: center;
   }
   main .primer-titulo {
@@ -740,7 +788,6 @@ main {
   background-color: #040404;
   color: #fff;
   text-align: center;
-  padding: 20px;
 }
 
 .titulo-seccion {
@@ -1046,7 +1093,7 @@ main {
 
 .producto-destacado {
   display: flex;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .carta {
