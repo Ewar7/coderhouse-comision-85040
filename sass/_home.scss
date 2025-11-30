@@ -129,12 +129,13 @@ main {
             .carta{
                 width: auto !important;
                 height: 100%;
+                padding-bottom: 15px;
                 h2{
-                    padding: 5px 2px;
-                    white-space: nowrap;
+                    padding: 2px 5px 10px 5px;
                     overflow: hidden;
                     text-overflow: ellipsis;
                     width: 150px;
+                    height: 40px;
                 }
                 a h2{
                 text-transform: capitalize;
@@ -171,12 +172,13 @@ main {
             .carta{
                 width: auto !important;
                 height: 100%;
+                padding-bottom: 15px;
                 h2{
-                    padding: 5px 2px;
-                    white-space: nowrap;
+                    padding: 2px 5px 10px 5px;
                     overflow: hidden;
                     text-overflow: ellipsis;
                     width: 150px;
+                    height: 40px;
                 }
                 a h2{
                 text-transform: capitalize;
