@@ -1,5 +1,10 @@
 @use "variables" as v;
 
+main{
+    article{
+        padding: 0 30px 30px 30px;
+    }
+}
 .lista-preguntas {
     background-color: v.$background-primario;
     display: flex;

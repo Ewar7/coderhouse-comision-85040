@@ -336,6 +336,10 @@ header ul li a {
   width: 100%;
 }
 .contenedor-destacados .carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   width: 20%;
   height: auto;
@@ -356,11 +360,16 @@ header ul li a {
 }
 .contenedor-destacados .carta h2 {
   color: #202020;
-  padding: 15px 0 15px 0;
   text-align: center;
   font-size: 15px;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: auto;
+  margin-top: 15px;
+  padding: 5px 5px 15px 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+  height: 40px;
 }
 .contenedor-destacados .carta a {
   color: #fff;
@@ -368,13 +377,14 @@ header ul li a {
 }
 .contenedor-destacados .carta a input {
   text-decoration: none;
-  padding: 7.8px 25px;
-  margin-bottom: 20px;
+  padding: 7.8px 50px;
+  margin-bottom: 0;
   font-size: 18px;
   background-image: linear-gradient(to left, #330142, #270a3b, #1d0e33, #160e29, #110d1e, #110d1e, #110d1e, #110d1e, #160e29, #1d0e33, #270a3b, #330142);
   color: #fff;
   border: 0;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
+  transition: ease-in-out 0.3s;
 }
 .contenedor-destacados .carta a input:hover {
   transform: scale(1.1);
@@ -443,7 +453,7 @@ main h1 {
     width: auto !important;
   }
   main .carta a h2 {
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
   main h1 {
     font-size: 25px !important;
@@ -516,6 +526,9 @@ main h1 {
     padding: 6px 20px;
     margin: 2px 0;
     border: 0;
+  }
+  main .contenedor-destacados .carta:hover {
+    transform: scale(1);
   }
   main h1 {
     font-size: 25px !important;
@@ -701,6 +714,9 @@ footer input {
   .boletin-footer input {
     font-size: 15px;
   }
+  .contenedor-tarjetas .tarjetas-slide img {
+    height: 40px;
+  }
   .redes-footer {
     display: flex;
     justify-content: center;
@@ -725,6 +741,7 @@ footer input {
 }
 .articulos-tienda {
   margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .item-tienda {
@@ -751,31 +768,40 @@ footer input {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .item-tienda .carta {
-    height: 270px;
-  }
   .carta-tienda {
+    height: 270px;
     width: auto;
     height: fit-content;
+    align-items: end;
+  }
+  .carta-tienda h2 {
+    text-transform: uppercase;
   }
   .carta-tienda input {
     border-radius: 10px 10px !important;
+    padding: 10px 15px;
+    margin-bottom: 10px;
   }
 }
 @media (min-width: 431px) and (max-width: 800px) {
+  .articulos-tienda {
+    padding: 30px 0;
+  }
   .item-tienda {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
   }
-  .item-tienda .carta {
-    height: auto;
-  }
-  .carta-tienda {
-    width: auto;
+  .item-tienda .carta-tienda {
+    height: 270px;
+    width: 30%;
     height: fit-content;
+    align-items: end;
   }
-  .carta-tienda input {
+  .item-tienda .carta-tienda input {
     border-radius: 10px 10px !important;
+    padding: 10px 15px;
+    margin-bottom: 10px;
   }
 }
 main h1 {
@@ -1157,6 +1183,13 @@ main {
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
+  .producto-destacado .carta {
+    width: auto;
+  }
+  .producto-destacado .carta .input-carta {
+    padding: 8px 10px;
+    margin: 10px;
+  }
   main .carta-tienda h2 {
     padding-bottom: 10px;
   }
@@ -1165,6 +1198,13 @@ main {
   }
 }
 @media (min-width: 431px) and (max-width: 800px) {
+  .producto-destacado .carta {
+    width: auto;
+  }
+  .producto-destacado .carta .input-carta {
+    padding: 8px 10px;
+    margin: 10px;
+  }
   .titulo-ofertas {
     font-size: 22px;
   }
@@ -1285,6 +1325,7 @@ form textarea {
   .b {
     grid-area: b;
     padding: 5px;
+    height: 250px;
   }
   .b input {
     border-radius: 5px !important;
@@ -1331,6 +1372,7 @@ form textarea {
   .b {
     grid-area: b;
     padding: 5px;
+    height: 250px;
   }
   .b input {
     border-radius: 5px !important;
@@ -1360,6 +1402,10 @@ form textarea {
     display: none;
   }
 }
+main article {
+  padding: 0 30px 30px 30px;
+}
+
 .lista-preguntas {
   background-color: #450463;
   display: flex;

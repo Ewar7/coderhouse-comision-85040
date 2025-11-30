@@ -162,6 +162,13 @@ footer input{
             font-size: 15px;
         }
     }
+    .contenedor-tarjetas{
+        .tarjetas-slide{
+            img{
+                height: 40px;
+            }
+        }
+    }
     .redes-footer{
         display: flex;
         justify-content: center;
