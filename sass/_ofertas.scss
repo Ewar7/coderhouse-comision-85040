@@ -3,7 +3,7 @@
 .titulo-ofertas{
     font-size: 38px;
     background-image: v.$gradient-1;
-    box-shadow: v.$gradient-2;
+    box-shadow: 0px 0px 53px 0px v.$color-terciario;
     border-radius: 8px;
     margin: 0 35%;
     padding: 5px 0;
@@ -57,7 +57,8 @@
         width: 350px;
         height: auto;
         border-radius: 9px 0 0 9px;
-        margin-right: 10px;
+        margin-right: 20px;
+        padding: 20px 0;
     }
     h2{
         color: v.$color-secundario;
@@ -65,7 +66,7 @@
         padding-top: 20px;
     }
     a{
-        margin: auto 20px;
+        margin: auto 10px 5px 30px;
         color: v.$color-secundario;
         .material-symbols-outlined {
             transition: ease-in-out .4s;
@@ -83,7 +84,6 @@
     p{
         color: v.$color-secundario;
         padding: 20px 30px 20px 0;
-
     }
     div{
         flex-direction: column;
@@ -141,36 +141,88 @@
     width: 100%;
 }
 @media (min-width: 320px) and (max-width: 430px){
-    .producto-destacado{
-        .carta{
-            width: auto;
-            .input-carta{
-                padding: 8px 10px;
-                margin: 10px;
-            }
-        }
-    }
-    main{.carta-tienda{
-        h2{
-            padding-bottom: 10px;
-        }
-    }
-}
     .titulo-ofertas{
+        margin: 0 25%;
         font-size: 18px;
     }
-}
-@media (min-width: 431px) and (max-width: 800px){
-    .producto-destacado{
-        .carta{
-            width: auto;
-            .input-carta{
-                padding: 8px 10px;
-                margin: 10px;
+    .next-ofertas{
+    justify-content: end;
+    }
+    .prev-ofertas{
+        justify-content: start;
+    }
+    .oferta-destacada{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 70%;
+            margin: 0;
+        }
+        h2{
+            padding: 0;
+            text-align: center;
+        }
+        a{
+            margin: 5px 5px 0 auto;
+            .material-symbols-outlined{
+                font-size: 50px;
+            }
+            .material-symbols-outlined:hover{
+                transform: scale(1);
             }
         }
-    }
+        p{
+            text-align: justify;
+            padding: 10px 20px 0 20px;
+            margin: 0;
+        }
+        div{
+            flex-direction: column;
+        }
+}
+}
+@media (min-width: 431px) and (max-width: 800px){
     .titulo-ofertas{
-        font-size: 22px;
+        font-size: 18px;
+        margin: 0 25%;
     }
+    .next-ofertas{
+    justify-content: end;
+    }
+    .prev-ofertas{
+        justify-content: start;
+    }
+    .oferta-destacada{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 70%;
+            margin: 0;
+        }
+        h2{
+            padding: 0;
+            text-align: center;
+        }
+        a{
+            margin: 5px 5px 0 auto;
+            .material-symbols-outlined{
+                font-size: 50px;
+            }
+            .material-symbols-outlined:hover{
+                transform: scale(1);
+            }
+        }
+        p{
+            text-align: justify;
+            padding: 10px 20px 0 20px;
+            margin: 0;
+        }
+        div{
+            flex-direction: column;
+        }
+}
 }
