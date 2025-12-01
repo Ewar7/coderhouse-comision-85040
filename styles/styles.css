@@ -996,6 +996,10 @@ main {
     margin: 10px auto;
   }
 }
+main .carrusel-paginaproductos {
+  padding: 0;
+}
+
 .pagina-producto {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
