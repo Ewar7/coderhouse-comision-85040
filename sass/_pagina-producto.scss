@@ -37,6 +37,7 @@ main{
         h1{
             color: v.$background-secundario;
             box-shadow: unset;
+            padding-left: 30px;
         }
         h2{
             color: v.$background-secundario;
@@ -54,9 +55,13 @@ main{
             "a a a"
             "b c d"
             ;
+            img{
+                width: 80%;
+                object-fit: cover;
+                margin: auto;
+            }
             .hd1{
                 grid-area: a;
-                
             }
             .hd2{
                 grid-area: b;
@@ -91,6 +96,7 @@ main{
             h1{
                 text-align: center;
                 margin-top: 20px;
+                padding-left: 0;
             }
             p{
                 text-align: justify;
@@ -130,6 +136,7 @@ main{
             h1{
                 text-align: center;
                 margin-top: 20px;
+                padding-left: 0;
             }
             p{
                 text-align: justify;
@@ -143,8 +150,9 @@ main{
         }
         .p2{
             .imagen-producto{
+                padding: 0 20px 20px 20px;
                 img{
-                    max-width: 90%;
+                    width: 65%;
                     margin: auto;
                 }
             }
