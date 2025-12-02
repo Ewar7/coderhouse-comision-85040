@@ -67,9 +67,9 @@ header .header2 .contenedor-redes ul {
   padding-left: 50px;
 }
 .container-fluid .logo-header {
-  height: 130px;
+  height: 120px;
   width: auto;
-  padding-top: 15px;
+  padding-top: 5px;
   transition: ease-in-out 0.3s;
 }
 .container-fluid .logo-header:hover {
@@ -850,8 +850,8 @@ main h1 {
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0px 0px 27px #0214DB;
-  margin-bottom: 40px;
-  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
   box-shadow: 0 10px 20px #00064D;
 }
 
