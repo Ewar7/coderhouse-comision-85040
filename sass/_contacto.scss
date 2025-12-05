@@ -45,10 +45,8 @@ form {
     .b{
         grid-area: b;
         padding: 10px;
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-items: center;
+        @include v.flex(flex, center, center);
         .boton-enviar{
         width: 150px;
         text-decoration: none;

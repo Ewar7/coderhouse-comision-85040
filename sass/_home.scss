@@ -3,10 +3,8 @@
 .contenedor-destacados{
     width: 100%;
     .carta {
-        display: flex;
+        @include v.flex(flex, center, center);
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         background-color: v.$color-primario;
         width: calc(100%/5);
         height: auto;

@@ -23,9 +23,9 @@ header .header1 {
 }
 header .header2 {
   display: flex;
-  width: 15%;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
+  width: 15%;
 }
 header .header2 nav ul {
   list-style: none;
@@ -155,7 +155,7 @@ header .header2 .contenedor-redes ul {
 
 .contenedor-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 100px;
 }
@@ -345,9 +345,9 @@ header ul li a {
 }
 .contenedor-destacados .carta {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #fff;
   width: 20%;
   height: auto;
@@ -561,8 +561,8 @@ footer {
 footer section .boletin-footer {
   background-color: #fff;
   color: #8a7969;
-  display: flex;
   font-size: 12px;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
@@ -761,9 +761,9 @@ footer input {
 }
 .item-tienda .carta-tienda {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .item-tienda .carta-tienda h2 {
   color: #202020;
@@ -1296,9 +1296,9 @@ main .carrusel-paginaproductos {
   }
   .oferta-destacada {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   .oferta-destacada img {
     width: 70%;
@@ -1411,10 +1411,10 @@ form textarea {
 .formulario .b {
   grid-area: b;
   padding: 10px;
-  display: flex;
   flex-direction: column;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
 }
 .formulario .b .boton-enviar {
   width: 150px;

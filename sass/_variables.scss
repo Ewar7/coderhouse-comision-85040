@@ -26,3 +26,8 @@ $gradient-2: linear-gradient(to bottom, #0214db, #0013bf, #0011a3, #000e88, #000
 
 
 //mixins
+@mixin flex($display, $justify, $align){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}

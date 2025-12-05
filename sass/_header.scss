@@ -9,10 +9,8 @@ header {
         width: 85%;
     }
     .header2 {
-        display: flex;
+        @include v.flex(flex, flex-end, center);
         width: 15%;
-        align-items: center;
-        justify-content: center;
         nav ul {
             list-style: none;
             text-align: center;
@@ -129,9 +127,7 @@ header {
     }
 }
 .contenedor-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include v.flex(flex, space-between, center);
     height: 100px;
 }
 .redes{
@@ -234,9 +230,7 @@ header ul li a {
         display: none;
     }
     .navbar-brand{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include v.flex(flex, center, center);
     }
     .menu-header{
         grid-area: 3;
